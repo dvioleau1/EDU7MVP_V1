@@ -1,0 +1,78 @@
+{
+   "chapitre":"Proba",
+   "flc":[
+      {
+         "Importance":"***",
+         "corrige":"Carac X denom_au plus denom et non vide.png",
+         "enonce":"Carac X denom_au plus denom et non vide"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def ens fini_denom_au plus denom.png",
+         "enonce":"Def ens fini_denom_au plus denom"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def événement négligeable_presque certain.png",
+         "enonce":"Def événement négligeable_presque certain"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def fam indep et mutu indep.png",
+         "enonce":"Def fam indep et mutu indep"
+      },
+      {
+         "Importance":"***",
+         "corrige":"def SCE.png",
+         "enonce":"def SCE"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def sigma additivité.png",
+         "enonce":"Def sigma additivité"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Ens denom + propriété.png",
+         "enonce":"Ens denom + propriété"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Fo de Bayes.png",
+         "enonce":"Fo de Bayes"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Fo proba totales.png",
+         "enonce":"Fo proba totales"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Lemme pour mq A fin ou denom.png",
+         "enonce":"Lemme pour mq A fin ou denom"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Opération ens denom.png",
+         "enonce":"Opération ens denom"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Prop événement indep.png",
+         "enonce":"Prop événement indep"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Th de continuité.png",
+         "enonce":"Th de continuité"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Th sous-additivité.png",
+         "enonce":"Th sous-additivité"
+      }
+   ],
+   "matiere":"maths",
+   "niveau":"PSI",
+   "sous-chapitre":"Proba discrètes"
+}
