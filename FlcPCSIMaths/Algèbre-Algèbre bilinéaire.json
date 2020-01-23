@@ -1,0 +1,228 @@
+{
+   "chapitre":"Algèbre",
+   "flc":[
+      {
+         "Importance":"***",
+         "corrige":"Caractérisation endo symétrique.png",
+         "enonce":"Caractérisation endo symétrique"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Caractérisation isométrie .png",
+         "enonce":"Caractérisation isométrie "
+      },
+      {
+         "Importance":"***",
+         "corrige":"Caractérisation matrices orthogonales.png",
+         "enonce":"Caractérisation matrices orthogonales"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def endo orthogonal.png",
+         "enonce":"Def endo orthogonal"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def endo symétrique.png",
+         "enonce":"Def endo symétrique"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def famille orthonormale.png",
+         "enonce":"Def famille orthonormale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def isométrie direct_indirecte.png",
+         "enonce":"Def isométrie direct_indirecte"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def isométrie.png",
+         "enonce":"Def isométrie"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def l'orthogonal de A.png",
+         "enonce":"Def l'orthogonal de A"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def norme produit scalaire.png",
+         "enonce":"Def norme produit scalaire"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def orientation des bases.png",
+         "enonce":"Def orientation des bases"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def produit mixte.png",
+         "enonce":"Def produit mixte"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def produit scalaire.png",
+         "enonce":"Def produit scalaire"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def projection orthogonale sur F.png",
+         "enonce":"Def projection orthogonale sur F"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def réflexion.png",
+         "enonce":"Def réflexion"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def symétrie orthogonale.png",
+         "enonce":"Def symétrie orthogonale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def vecteurs orthogonaux.png",
+         "enonce":"Def vecteurs orthogonaux"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Décomposition d'un EV avec un SEV.png",
+         "enonce":"Décomposition d'un EV avec un SEV"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Déterminant famille vecteur dans une autre base.png",
+         "enonce":"Déterminant famille vecteur dans une autre base"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Déterminant image d'une base.png",
+         "enonce":"Déterminant image d'une base"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Déterminant matrice orthogonale.png",
+         "enonce":"Déterminant matrice orthogonale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Déterminant_Spectre pour f orthogonale.png",
+         "enonce":"Déterminant_Spectre pour f orthogonale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Formule Bessel-Parseval en dim finie.png",
+         "enonce":"Formule Bessel-Parseval en dim finie"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Formule produit scalaire avec angle.png",
+         "enonce":"Formule produit scalaire avec angle"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Formule projection orthogonale.png",
+         "enonce":"Formule projection orthogonale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Formule symétrie ortho en fonction projection.png",
+         "enonce":"Formule symétrie ortho en fonction projection"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Gram-Schmidt.png",
+         "enonce":"Gram-Schmidt"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Identité remarquable_parallélogramme_polarisation.png",
+         "enonce":"Identité remarquable_parallélogramme_polarisation"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Inégalité de Bessel.png",
+         "enonce":"Inégalité de Bessel"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Inégalité de Cauchy-Schwartz.png",
+         "enonce":"Inégalité de Cauchy-Schwartz"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Lemme technique endo_mat symétrique.png",
+         "enonce":"Lemme technique endo_mat symétrique"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Matrice de passage entre deux BON.png",
+         "enonce":"Matrice de passage entre deux BON"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Matrice isométire indirecte.png",
+         "enonce":"Matrice isométire indirecte"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Matrice isométrie directe.png",
+         "enonce":"Matrice isométrie directe"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Matrice_trace d'une isométrie direct_indirecte dans l'espace.png",
+         "enonce":"Matrice_trace d'une isométrie direct_indirecte dans l'espace"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Produit scalaire matrice.png",
+         "enonce":"Produit scalaire matrice"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Prop sous espaces 2 à 2 orthogonaux.png",
+         "enonce":"Prop sous espaces 2 à 2 orthogonaux"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Propriété d'une famille orthogonale non nuls_orthonormale.png",
+         "enonce":"Propriété d'une famille orthogonale non nuls_orthonormale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Propriétés matrices orthogonales.png",
+         "enonce":"Propriétés matrices orthogonales"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Theorème de la BON incomplète.png",
+         "enonce":"Theorème de la BON incomplète"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de Riesz.png",
+         "enonce":"Théorème de Riesz"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème spectral + version matrice.png",
+         "enonce":"Théorème spectral + version matrice"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème sur la projection orthogonale.png",
+         "enonce":"Théorème sur la projection orthogonale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème_réciproque Pythagore.png",
+         "enonce":"Théorème_réciproque Pythagore"
+      }
+   ],
+   "matiere":"maths",
+   "niveau":"PSI",
+   "sous-chapitre":"Algèbre bilinéaire"
+}

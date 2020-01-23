@@ -1,0 +1,328 @@
+{
+   "chapitre":"Analyse",
+   "flc":[
+      {
+         "Importance":"***",
+         "corrige":"Caractérisation des difféomorphismes.png",
+         "enonce":"Caractérisation des difféomorphismes"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Continuité_dérivabilité d'une primitive en fonction de f.png",
+         "enonce":"Continuité_dérivabilité d'une primitive en fonction de f"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def Cp difféomorph.png",
+         "enonce":"Def Cp difféomorph"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def dérivabilité.png",
+         "enonce":"Def dérivabilité"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def valeur moy d'une fonction.png",
+         "enonce":"Def valeur moy d'une fonction"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Dérivée de la réciproque.png",
+         "enonce":"Dérivée de la réciproque"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Egalité des accroissements finis.png",
+         "enonce":"Egalité des accroissements finis"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Formule de Leibniz.png",
+         "enonce":"Formule de Leibniz"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Formule de Taylor avec reste intégral.png",
+         "enonce":"Formule de Taylor avec reste intégral"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Formule de Taylor-Young.png",
+         "enonce":"Formule de Taylor-Young"
+      },
+      {
+         "Importance":"***",
+         "corrige":"HYP Positivité de l'intégrale.png",
+         "enonce":"HYP Positivité de l'intégrale"
+      },
+      {
+         "Importance":"***",
+         "corrige":"HYP stricte positivité de l'int.png",
+         "enonce":"HYP stricte positivité de l'int"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Inégalité de Cauchy-Schwartz.png",
+         "enonce":"Inégalité de Cauchy-Schwartz"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Inégalité des accroissements finis.png",
+         "enonce":"Inégalité des accroissements finis"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Inégalité_égalité de Taylor-Lagrange.png",
+         "enonce":"Inégalité_égalité de Taylor-Lagrange"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Somme de Riemann.png",
+         "enonce":"Somme de Riemann"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Stabilité dérivabilité_classe Cp par opération 1.png",
+         "enonce":"Stabilité dérivabilité_classe Cp par opération 1"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Stabilité dérivabilité_classe Cp par opération 2.png",
+         "enonce":"Stabilité dérivabilité_classe Cp par opération 2"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Stabilité dérivabilité_classe Cp par opération.png",
+         "enonce":"Stabilité dérivabilité_classe Cp par opération"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de compacité.png",
+         "enonce":"Théorème de compacité"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de prolongement Ck.png",
+         "enonce":"Théorème de prolongement Ck"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de Rolle.png",
+         "enonce":"Théorème de Rolle"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Lien entre les classes de fonction pour une EDN.png",
+         "enonce":"Lien entre les classes de fonction pour une EDN"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Méthode de la variation de la constante.png",
+         "enonce":"Méthode de la variation de la constante"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Normaliser une EDL 1er ordre.png",
+         "enonce":"Normaliser une EDL 1er ordre"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Problème de Cauchy.png",
+         "enonce":"Problème de Cauchy"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Recherche solution part 2nd ordre polynome exp 1.png",
+         "enonce":"Recherche solution part 2nd ordre polynome exp 1"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Recherche solution part 2nd ordre polynome exp 2.png",
+         "enonce":"Recherche solution part 2nd ordre polynome exp 2"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Recherche solution part polynome exp 1er ordre.png",
+         "enonce":"Recherche solution part polynome exp 1er ordre"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Résolution équation homogène 1er ordre.png",
+         "enonce":"Résolution équation homogène 1er ordre"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Résolution équation homogène 2nd ordre 1.png",
+         "enonce":"Résolution équation homogène 2nd ordre 1"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Résolution équation homogène 2nd ordre 2.png",
+         "enonce":"Résolution équation homogène 2nd ordre 2"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Résolution équation homogène 2nd ordre général.png",
+         "enonce":"Résolution équation homogène 2nd ordre général"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Superposition solutions particulières.png",
+         "enonce":"Superposition solutions particulières"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de Cauchy-Lipschitz 1er ordre.png",
+         "enonce":"Théorème de Cauchy-Lipschitz 1er ordre"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de structure EDL 1er ordre.png",
+         "enonce":"Théorème de structure EDL 1er ordre"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de structure matrices.png",
+         "enonce":"Théorème de structure matrices"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Corollaire ouvert fermé par application.png",
+         "enonce":"Corollaire ouvert fermé par application"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def application k lipschitzienne.png",
+         "enonce":"Def application k lipschitzienne"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def boule ouverte ferme sphère.png",
+         "enonce":"Def boule ouverte ferme sphère"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def d'un ensemble compacte.png",
+         "enonce":"Def d'un ensemble compacte"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def d'un ouvert fermé.png",
+         "enonce":"Def d'un ouvert fermé"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def d'une application bornée.png",
+         "enonce":"Def d'une application bornée"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def d'une partie bornée.png",
+         "enonce":"Def d'une partie bornée"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def de normes équivalentes.png",
+         "enonce":"Def de normes équivalentes"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def densité.png",
+         "enonce":"Def densité"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def norme.png",
+         "enonce":"Def norme"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def point adhérent bis.png",
+         "enonce":"Def point adhérent bis"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def point adhérent.png",
+         "enonce":"Def point adhérent"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Def point intérieur.png",
+         "enonce":"Def point intérieur"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Inclusion intérieur adhérence d'un ensemble.png",
+         "enonce":"Inclusion intérieur adhérence d'un ensemble"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Inégalité triangulaire inversée.png",
+         "enonce":"Inégalité triangulaire inversée"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Normes usuelles.png",
+         "enonce":"Normes usuelles"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Partie convexe.png",
+         "enonce":"Partie convexe"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Prop applications (multi) linéaires.png",
+         "enonce":"Prop applications (multi) linéaires"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Prop applications lipschitziennes.png",
+         "enonce":"Prop applications lipschitziennes"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Propriété d'un ouvert fermé choix de norme.png",
+         "enonce":"Propriété d'un ouvert fermé choix de norme"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Propriété norme sur la convergence.png",
+         "enonce":"Propriété norme sur la convergence"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Propriétés boule ouverte fermée bis.png",
+         "enonce":"Propriétés boule ouverte fermée bis"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Propriétés boule ouverte fermée.png",
+         "enonce":"Propriétés boule ouverte fermée"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Stabilités des ouverts fermés.png",
+         "enonce":"Stabilités des ouverts fermés"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème de compacité.png",
+         "enonce":"Théorème de compacité"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème normes équivalentes.png",
+         "enonce":"Théorème normes équivalentes"
+      },
+      {
+         "Importance":"***",
+         "corrige":"Théorème ouvert fermé par application réciproque.png",
+         "enonce":"Théorème ouvert fermé par application réciproque"
+      }
+   ],
+   "matiere":"maths",
+   "niveau":"PSI",
+   "sous-chapitre":"EVN"
+}
