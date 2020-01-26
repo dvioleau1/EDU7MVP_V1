@@ -1,0 +1,46 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "Criteredecomparaison1.png",
+            "enonce": "Corollaire : Critère de comparaison avec ~ ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Criteredecomparaison2.png",
+            "enonce": "Corollaire : Critère de comparaison avec grand O, Riemann ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Definitionfonctioncpm.png",
+            "enonce": "Définition : Fonction continue par morceaux ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Definitionintegraleimpropre.png",
+            "enonce": "Définition : Intégrale impropre ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Integralesdereference.png",
+            "enonce": "Proposition : Intégrales de référence ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Strictepositive.png",
+            "enonce": "Proposition : Hypothèse de la stricte positivité ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Theoremedecomparaisonfonctionspositives.png",
+            "enonce": "3 Théorèmes de comparaisons pour les fonctions positives ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Theoremedecomparaisonserieint.png",
+            "enonce": "Théorème de comparaison série-intégrale ? ",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "08 Intégration"
+}

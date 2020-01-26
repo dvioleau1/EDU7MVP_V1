@@ -1,0 +1,81 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "LienentrelesclassesdefonctionpouruneEDN.png",
+            "enonce": "Proposition : Lien entre les classes des fonctions dans une équation différentielle normalisée ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Methodedelavariationdelaconstante.png",
+            "enonce": "Proposition : Méthode de la variation de la constante ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "NormaliseruneEDL1erordre.png",
+            "enonce": "Méthode pour normaliser une équation différentielle du 1er ordre ?",
+            "importance": 1
+        },
+        {
+            "corrige": "ProblemedeCauchy.png",
+            "enonce": "Définition : Problème de Cauchy du 1er ordre ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Recherche solution part 2nd ordre polynome exp 1.png",
+            "enonce": "Recherche solution part 2nd ordre polynome exp 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Recherche solution part 2nd ordre polynome exp 2.png",
+            "enonce": "Recherche solution part 2nd ordre polynome exp 2",
+            "importance": 1
+        },
+        {
+            "corrige": "Recherchesolutionpartpolynomeexp1erordre.png",
+            "enonce": "Proposition : Méthode pour rechercher une solution particulière pour une ED du 1nd ordre avec en 2nd membre le produit d’un polynôme et d’une exponentielle ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Resolutionequationhomogene1erordre.png",
+            "enonce": "Proposition : résolution d’une équation homogène du 1er ordre ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Résolution équation homogène 2nd ordre 1.png",
+            "enonce": "Résolution équation homogène 2nd ordre 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Résolution équation homogène 2nd ordre 2.png",
+            "enonce": "Résolution équation homogène 2nd ordre 2",
+            "importance": 1
+        },
+        {
+            "corrige": "Resolutionequationhomogene2ndordregeneral.png",
+            "enonce": "Résolution équation homogène du 2nd ordre à coefs non constants ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Superposition solutions particulières.png",
+            "enonce": "Superposition solutions particulières",
+            "importance": 1
+        },
+        {
+            "corrige": "TheoremedeCauchy-Lipschitz1erordre.png",
+            "enonce": "Théorème : Cauchy-Lipschitz linéaire ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "TheoremedestructureEDL1erordre.png",
+            "enonce": "Théorème de structure pour les équations différentielles linéaires scalaires du 1er ordre ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Theoremedestructurematrices.png",
+            "enonce": "Théorème de structure pour les équations différentielles matricielles du 1er ordre ? ",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "07 Equa diff"
+}

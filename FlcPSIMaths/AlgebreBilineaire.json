@@ -1,0 +1,226 @@
+{
+    "chapitre": "Algèbre",
+    "flc": [
+        {
+            "corrige": "Caracterisationendosymetrique.png",
+            "enonce": "Proposition : caractérisation endomorphisme symétrique ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Caracterisationisometrie.png",
+            "enonce": "Proposition : caractérisation isométrie ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Caracterisationmatricesorthogonales.png",
+            "enonce": "Proposition : caractérisation matrice orthogonale ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defendoorthogonal.png",
+            "enonce": "Définition : endomorphisme orthogonal ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defendosymetrique.png",
+            "enonce": "Définition : endomorphisme symétrique ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Deffamilleorthonormale.png",
+            "enonce": "Définitions : famille orthogonale/orthonormale, base orthonormale ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Définition : isométrie ? ",
+            "enonce": "Définition : isométrie ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Defisometrie.png",
+            "enonce": "Définition : isométrie ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "DeflorthogonaldeA.png",
+            "enonce": "Définition : Soit A inclus dans E, l’orthogonal de A ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defnormeproduitscalaire.png",
+            "enonce": "Définition : formule reliant norme et produit scalaire ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Deforientationdesbases.png",
+            "enonce": "Définition : deux bases ont même orientation <=> ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Defproduitmixte.png",
+            "enonce": "Définition : formule du produit mixte ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defproduitscalaire.png",
+            "enonce": "Définition : produit scalaire ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "DefprojectionorthogonalesurF.png",
+            "enonce": "Définition : projection orthogonale sur F (un SEV de E) ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defreflexion.png",
+            "enonce": "Définition : réflexion ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defsymetrieorthogonale.png",
+            "enonce": "Définition : symétrie orthogonale par rapport à F (un SEV de E) ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defvecteursorthogonaux.png",
+            "enonce": "Définition : deux vecteurs orthogonaux ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "DecompositiondunEVavecunSEV.png",
+            "enonce": "Soit F un sous-espace vectoriel de dimension fine de E. Alors E = ???",
+            "importance": 2
+        },
+        {
+            "corrige": "Determinantfamillevecteurdansuneautrebase.png",
+            "enonce": "Proposition : déterminant d’une famille de n vecteurs dans une autre base ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Determinantimagedunebase.png",
+            "enonce": "Proposition : déterminant d’une famille de n vecteurs dans une autre base ? (avec un endomorphisme)",
+            "importance": 2
+        },
+        {
+            "corrige": "Determinantmatriceorthogonale.png",
+            "enonce": "Proposition : déterminant d'une matrice orthogonale ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Déterminant_Spectre pour f orthogonale.png",
+            "enonce": "Déterminant_Spectre pour f orthogonale",
+            "importance": 2
+        },
+        {
+            "corrige": "FormuleBessel-Parsevalendimfinie.png",
+            "enonce": "Proposition : formule de Bessel-Parseval en dimension finie ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Formuleproduitscalaireavecangle.png",
+            "enonce": "Proposition : formule du produit scalaire (avec l’angle géométrique) ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Formuleprojectionorthogonale.png",
+            "enonce": "Proposition : formule projection orthogonale ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Formulesymetrieorthoenfonctionprojection.png",
+            "enonce": "Proposition : formule symétrie orthogonale en fonction projection orthogonale ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Théorème : formule de Gram-Schmidt ?",
+            "enonce": "Théorème : formule de Gram-Schmidt ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Identité remarquable_parallélogramme_polarisation.png",
+            "enonce": "Identité remarquable_parallélogramme_polarisation",
+            "importance": 2
+        },
+        {
+            "corrige": "InegalitedeBessel.png",
+            "enonce": "Théorème : Inégalité de Bessel ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "InegalitedeCauchy-Schwartz.png",
+            "enonce": "Théorème : Inégalité de Cauchy-Schwarz ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Lemme technique endo_mat symétrique.png",
+            "enonce": "Lemme technique endo_mat symétrique",
+            "importance": 2
+        },
+        {
+            "corrige": "MatricedepassageentredeuxBON.png",
+            "enonce": "Proposition : condition pour que la matrice de passage = matrice orthogonale/orthonormale ",
+            "importance": 2
+        },
+        {
+            "corrige": "Matriceisometireindirecte.png",
+            "enonce": "Théorème : formule matrice d’une isométrie indirecte (dimension 2) ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Matriceisometriedirecte.png",
+            "enonce": "Lemme : formule matrice d’une isométrie directe (dimension 2) ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Matrice_trace d'une isométrie direct_indirecte dans l'espace.png",
+            "enonce": "Matrice_trace d'une isométrie direct_indirecte dans l'espace",
+            "importance": 2
+        },
+        {
+            "corrige": "Produitscalairematrice.png",
+            "enonce": "Lemme : formule produit scalaire matriciel ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Propsousespaces2a2orthogonaux.png",
+            "enonce": "Si n sous-espaces vectoriels de E sont 2 à 2 orthogonaux alors ??",
+            "importance": 2
+        },
+        {
+            "corrige": "Propriété d'une famille orthogonale non nuls_orthonormale.png",
+            "enonce": "Propriété d'une famille orthogonale non nuls_orthonormale",
+            "importance": 2
+        },
+        {
+            "corrige": "Proprietesmatricesorthogonales.png",
+            "enonce": "Proposition : 2 propriétés d’une matrice orthogonale ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "TheoremedelaBONincomplete.png",
+            "enonce": "Théorème : base orthonormale incomplète ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "TheoremedeRiesz.png",
+            "enonce": "Théorème : Riesz ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Theoremespectral+versionmatrice.png",
+            "enonce": "Théorème : spectral (version endo/matrice) ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Theoremesurlaprojectionorthogonale.png",
+            "enonce": "Théorème : caractérisation projection orthogonale sur F",
+            "importance": 2
+        },
+        {
+            "corrige": "Théorème_réciproque Pythagore.png",
+            "enonce": "Théorème_réciproque Pythagore",
+            "importance": 2
+        }
+    ],
+    "sous-chapitre": "04 Algèbre bilinéaire"
+}

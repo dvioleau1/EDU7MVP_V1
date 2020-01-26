@@ -1,0 +1,76 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "Car conv suite et imf.png",
+            "enonce": "Car conv suite et imf",
+            "importance": 1
+        },
+        {
+            "corrige": "Carequivalentsuite.png",
+            "enonce": "Proposition : Caractérisation de deux suites équivalentes ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Car suite récu.png",
+            "enonce": "Car suite récu",
+            "importance": 1
+        },
+        {
+            "corrige": "Def extractrice_sssuite.png",
+            "enonce": "Def extractrice_sssuite",
+            "importance": 1
+        },
+        {
+            "corrige": "Def équivalent.png",
+            "enonce": "Def équivalent",
+            "importance": 1
+        },
+        {
+            "corrige": "Def o O.png",
+            "enonce": "Def o O",
+            "importance": 1
+        },
+        {
+            "corrige": "Defsuitesadjacentes.png",
+            "enonce": "Définition : 2 suites réelles adjacentes ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Etudedunesuitearithmetico-geo.png",
+            "enonce": "Méthode : résolution suites arithmético-géométriques",
+            "importance": 1
+        },
+        {
+            "corrige": "MonotonieentrefetUn.png",
+            "enonce": "Proposition : monotonie de la suite récurrente associé à f en fonction de f ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Solutionsuitereculindordre2acoefconstant.png",
+            "enonce": "Théorème : Formule des suites récurrentes linéaires du 2nd ordre à coefficients constants sans 2nd membre ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Stabiliteparf.png",
+            "enonce": "Proposition : méthode pour trouver « le domaine de définition » d’une suite récurrente associé à f ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "ThdeCesaro.png",
+            "enonce": "Théorème de Césaro",
+            "importance": 1
+        },
+        {
+            "corrige": "Thdeconvergence.png",
+            "enonce": "Théorèmes de convergence pour une suite réelle (4)",
+            "importance": 1
+        },
+        {
+            "corrige": "Th suite adj.png",
+            "enonce": "Th suite adj",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "02 Suites numériques"
+}

@@ -1,0 +1,106 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "CarfonctionDSE.png",
+            "enonce": "Proposition : Caractérisation d’une fonction DSE au voisinage de 0 ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Coefserieentenfonctiondesasomme.png",
+            "enonce": "Corollaire : Coefficient de la série entière en fonction de sa somme ?",
+            "importance": 1
+        },
+        {
+            "corrige": "ConvdelaserieavecRconnu.png",
+            "enonce": "Corollaire : Lemme d’Abel ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "DeffonctionDSE.png",
+            "enonce": "Définition : fonction DSE au voisinage de 0 ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Defrayondeconv.png",
+            "enonce": "Définition : Rayon de convergence d’une série entière ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "DefseriedeTaylor.png",
+            "enonce": "Définition : Série de Taylor d’une fonction au voisinage de 0 ?",
+            "importance": 1
+        },
+        {
+            "corrige": "10 formules usuelles DSE en 0",
+            "enonce": "10 formules usuelles DSE en 0",
+            "importance": 1
+        },
+        {
+            "corrige": "FormulaireDSE.png",
+            "enonce": "10 formules usuelles DSE en 0",
+            "importance": 1
+        },
+        {
+            "corrige": "Formuletrigohyper.png",
+            "enonce": "Expression en exponentielle : ch(z), sh(z) ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Lemme d’Abel ? ",
+            "enonce": "Lemme d’Abel ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "LemmedAbel.png",
+            "enonce": "Lemme d’Abel ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "MethodeDSEfractionrationnelle.png",
+            "enonce": "Méthode pour obtenir un DSE d’une fraction rationnelle ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Passagetrigodirectatrigohyp.png",
+            "enonce": "Formule pour passer de la trigo directe à la trigo hyperbolique ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème : 2 propriétés des fonctions DSE au voisinage de 0 ?",
+            "enonce": "Théorème : 2 propriétés des fonctions DSE au voisinage de 0 ?",
+            "importance": 1
+        },
+        {
+            "corrige": "ProprietesDSE.png",
+            "enonce": "Théorème : 2 propriétés des fonctions DSE au voisinage de 0 ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Proposition : Rayon de convergence d’une somme de 2 fonctions DSE ?",
+            "enonce": "Proposition : Rayon de convergence d’une somme de 2 fonctions DSE ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Rayondeconvparop.png",
+            "enonce": "Proposition : Rayon de convergence d’une somme de 2 fonctions DSE ?",
+            "importance": 1
+        },
+        {
+            "corrige": "RayondeconvproduitdeCauchy.png",
+            "enonce": "Proposition : Rayon de convergence par produit de Cauchy ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Regledecomparaison.png",
+            "enonce": "Théorème : 2 règles de comparaison pour déterminer le rayon de convergence ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Theoremedecontinuite.png",
+            "enonce": "Théorème : continuité sur le disque ouvert de convergence ?",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "05 Séries entières"
+}

@@ -139,13 +139,13 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
     FutureBuilder futureBuilder = FutureBuilder(
       future: getAllFlashCards(category,filierematiere),
       builder: (context, snapshot) {
-        switch (snapshot.connectionState) {
-          case ConnectionState.none:
-            return Text('Press button to start.');
-          case ConnectionState.active:
-          case ConnectionState.waiting:
-            return Text('Awaiting result...');
-          case ConnectionState.done:
+        // switch (snapshot.connectionState) {
+        //   case ConnectionState.none:
+        //     return Text('Press button to start.');
+        //   case ConnectionState.active:
+        //   case ConnectionState.waiting:
+        //     return Text('Awaiting result...');
+        //   case ConnectionState.done:
             if (snapshot.hasData) {
               
               final makeBody = Container(
@@ -214,6 +214,8 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
                                   Text(snapshot.data[index][1],textAlign: TextAlign.center),
                                     Divider(thickness:1, color:Colors.black ),
                                     Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 200,width: 300),
+                                    //Image.asset("Images"+filierematiere+"/A.png",height: 200,width: 300),
+
                                 // //Pour associer textes et images
                                 // Wrap(spacing: 2.0, // gap between adjacent chips
                                 // runSpacing: 1.0, // gap between lines
@@ -256,19 +258,24 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
               );
 
               return makeBody;
-            } else {
-              return Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[Text("Erreur dans le chargement")],
-              );
+            } 
+            else if (snapshot.hasError) {
+              return new Text("${snapshot.error}");
             }
+            // else {
+            //   return Column(
+            //     mainAxisAlignment: MainAxisAlignment.center,
+            //     children: <Widget>[Text("Erreur dans le chargement")],
+            //   );
+            // }
+            return new CircularProgressIndicator();
         }
-      },
+      
     );
 
     return PlatformScaffold(
       appBar: PlatformAppBar(
-        title: Text("Mode"),
+        title: Text("Mode découverte"),
       ),
       iosContentPadding: true,
       body: NotificationListener<ScrollNotification>(
@@ -290,11 +297,14 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
   
   static Future getAllFlashCards(String category,String filierematiere) async {
     //get datas from json file
-    String nameFile="./Flc"+filierematiere+"/"+category+".json";
-    print(io.File(nameFile).exists());
+    String nameFile="./Flc"+filierematiere+"/"+category;
+    Future datas;
+          //String nameFile="./Flc"+filierematiere+"/A1.json";
+
     final String data= await rootBundle.loadString(nameFile);
-    Future datas=convertDatas(data);
+    datas=convertDatas(data);
     return datas;
+    
 
   }
 

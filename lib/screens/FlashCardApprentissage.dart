@@ -177,7 +177,7 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
                               MediaQuery
                                   .of(context)
                                   .size
-                                  .height * 0.10),
+                                  .height * 0.05),
                           child: Container(
                               padding: EdgeInsets.symmetric(
                                   vertical: 0.04 * heightSize,
@@ -192,7 +192,7 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
                                   //affichage du niveau d'importance ***, **, *
                                   Text(
                                     //"Importance "+snapshot.data[index][0],
-                                    "Importance ***",
+                                    "",
                                     style:
                                     TextStyle(fontWeight: FontWeight.bold),
                                   ),
@@ -235,7 +235,7 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
                                       .of(context)
                                       .size
                                       .height *
-                                      0.10),
+                                      0.05),
 
                               child: Container(
                                   padding: EdgeInsets.symmetric(
@@ -270,45 +270,86 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
                                         children: <Widget>[
                                           Text(
                                               "La Flashcard est-elle maîtrisée ?"),
-                                          Row(
-                                            mainAxisAlignment:
+                                              //StarDisplay(value: 3)
+                                              //StarRating(value:0),
+                                              StatefulStarRating(),
+                                              Row(
+                                                mainAxisAlignment:
                                             MainAxisAlignment.center,
                                             children: <Widget>[
-                                              RaisedButton(
-                                                child: Icon(Icons
-                                                    .sentiment_very_dissatisfied),
-                                                onPressed: () {
-                                                  _controller.forward(
-                                                      from: _controller
-                                                          .lowerBound);
-                                                  _controller.animateTo(0.33);
-                                                  moveToNextCard();
-                                                },
-                                              ),
-                                              RaisedButton(
-                                                child: Icon(
-                                                    Icons.sentiment_neutral),
-                                                onPressed: () {
-                                                  _controller.forward(
-                                                      from: 0.34);
-                                                  _controller.animateTo(0.66);
-                                                  moveToNextCard();
-                                                },
-                                              ),
-                                              RaisedButton(
-                                                child: Icon(Icons
-                                                    .sentiment_very_satisfied),
-                                                onPressed: () {
-                                                  _controller.forward(
-                                                      from: 0.67);
-                                                  _controller.animateTo(1);
-                                                  moveToNextCard();
-                                                },
+                                                    RaisedButton(
+                                                      padding: EdgeInsets.all(10.0),
+                                                      child: new Text(
+                                                          "Pas vu",
+                                                      ),
+                                                      onPressed:(){
+                                                          moveToNextCard();
+                                                      })
+                                                    ,
+                                                    FlatButton(
+                                                      onPressed: () => {moveToNextCard()},
+
+                                                      padding: EdgeInsets.all(10.0),
+                                                      child: Row( // Replace with a Row for horizontal icon + text
+                                                        children: <Widget>[
+                                                          Text("Suivante"),
+                                                          Icon(Icons.play_arrow),
+                                                          
+                                                        ],
+                                                      )
+                                                      )
+                                            ]
                                               )
-                                            ],
-                                          )
-                                        ],
-                                      )
+
+                                        
+                                      // Column(
+                                      //   mainAxisSize: MainAxisSize.max,
+                                      //   mainAxisAlignment:
+                                      //   MainAxisAlignment.end,
+                                      //   crossAxisAlignment:
+                                      //   CrossAxisAlignment.center,
+                                      //   children: <Widget>[
+                                      //     Text(
+                                      //         "La Flashcard est-elle maîtrisée ?"),
+                                      //     Row(
+                                      //       mainAxisAlignment:
+                                      //       MainAxisAlignment.center,
+                                      //       children: <Widget>[
+                                      //         RaisedButton(
+                                      //           child: Icon(Icons
+                                      //               .sentiment_very_dissatisfied),
+                                      //           onPressed: () {
+                                      //             _controller.forward(
+                                      //                 from: _controller
+                                      //                     .lowerBound);
+                                      //             _controller.animateTo(0.33);
+                                      //             moveToNextCard();
+                                      //           },
+                                      //         ),
+                                      //         RaisedButton(
+                                      //           child: Icon(
+                                      //               Icons.sentiment_neutral),
+                                      //           onPressed: () {
+                                      //             _controller.forward(
+                                      //                 from: 0.34);
+                                      //             _controller.animateTo(0.66);
+                                      //             moveToNextCard();
+                                      //           },
+                                      //         ),
+                                      //         RaisedButton(
+                                      //           child: Icon(Icons
+                                      //               .sentiment_very_satisfied),
+                                      //           onPressed: () {
+                                      //             _controller.forward(
+                                      //                 from: 0.67);
+                                      //             _controller.animateTo(1);
+                                      //             moveToNextCard();
+                                      //           },
+                                      //         )
+                                      //       ],
+                                      //     )
+                                         ],
+                                       )
                                     ],
                                   )),
                             );
@@ -368,8 +409,8 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
     //Map<String, String> nameFiles = {"Algèbre-Algèbre bilinéaire":"AAB.json","Algèbre-Algèbre linéaire 1":"AAL1.json"};
     //String nameFile=nameFiles[category];
     //
-    String nameFile="./Flc"+filierematiere+"/"+category+".json";
-    print(io.File(nameFile).exists());
+
+    String nameFile="./Flc"+filierematiere+"/"+category;
     final String data= await rootBundle.loadString(nameFile);
     return convertDatas(data);
 
@@ -403,3 +444,63 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
 
 }
 
+
+class StarRating extends StatelessWidget {
+  final int value;
+  final IconData filledStar;
+  final IconData unfilledStar;
+  final void Function(int index) onChanged;
+  const StarRating({
+    Key key,
+    this.value = 0,
+    this.onChanged,
+    this.filledStar,
+    this.unfilledStar,
+  })  : assert(value != null),
+        super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    final color = Theme.of(context).accentColor;
+    final size = 36.0;
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: List.generate(5, (index) {
+        return IconButton(
+          onPressed: onChanged != null
+              ? () {
+                  onChanged(value == index + 1 ? index : index + 1);
+                }
+              : null,
+          color: index < value ? color : null,
+          iconSize: size,
+          icon: Icon(
+            index < value 
+               ? filledStar ?? Icons.star 
+               : unfilledStar ?? Icons.star_border,
+          ),
+          padding: EdgeInsets.zero,
+          tooltip: "${index + 1} of 5",
+        );
+      }),
+    );
+  }
+}
+
+class StatefulStarRating extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    int rating = 0;
+    return StatefulBuilder(
+      builder: (context, setState) {
+        return StarRating(
+          onChanged: (index) {
+            setState(() {
+              rating = index;
+            });
+          },
+          value: rating,
+        );
+      },
+    );
+  }
+}

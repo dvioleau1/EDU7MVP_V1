@@ -1,0 +1,171 @@
+{
+    "chapitre": "Proba",
+    "flc": [
+        {
+            "corrige": "Caracterisationfonctiongeneratriceetloideproba.png",
+            "enonce": "Proposition : lien entre fonction génératrice et loi de proba de 2 variables aléatoires ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Cauchy-Schwartz+HYP.png",
+            "enonce": "Proposition : Inégalité de Cauchy-Schwarz ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Defdunmomentdordrep.png",
+            "enonce": "Définition : moment d’ordre p d’une variable aléatoire ?",
+            "importance": 1
+        },
+        {
+            "corrige": "DefduneVAdesperancefinie.png",
+            "enonce": "Définition : variable aléatoire d’espérance finie ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Defdunevariancefinie.png",
+            "enonce": "Définition : variable aléatoire de variance finie ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Deffonctionderepartition.png",
+            "enonce": "Définition : fonction de répartition d’une variable aléatoire ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Defloiconjointeduncouple1.png",
+            "enonce": "Définition : loi conjointe d’un couple (X,Y) = formule ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Defloiconjointeduncouple2.png",
+            "enonce": "Définition : loi marginale de X et Y = formule ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "DefVAmutuellementindep.png",
+            "enonce": "Définition : n variables aléatoires sont mutuellement indépendantes <=> ?? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Esperanceduproduitde2VAindep.png",
+            "enonce": "Proposition : Espérance du produit de 2 variables aléatoires indépendantes ?  ",
+            "importance": 1
+        },
+        {
+            "corrige": "Esperanceduproduitde2VAparapplication.png",
+            "enonce": "Corollaire : Espérance du produit de 2 variables aléatoires indépendantes ?  ",
+            "importance": 1
+        },
+        {
+            "corrige": "Fonctiongeneratricede2VAindependantes.png",
+            "enonce": "Proposition : Fonction génératrice de la somme de 2 variables aléatoires indépendantes ? (formule)",
+            "importance": 1
+        },
+        {
+            "corrige": "Formulecoefficientdecorrelation+proprietes.png",
+            "enonce": "Définition : coefficient de corrélation linéaire de deux variables aléatoires ? + 2 propriétés",
+            "importance": 1
+        },
+        {
+            "corrige": "Formulecovariance.png",
+            "enonce": "Proposition : Formule de la covariance de deux variables aléatoires ",
+            "importance": 1
+        },
+        {
+            "corrige": "Formuledetransfert.png",
+            "enonce": "Formule de transfert ?",
+            "importance": 1
+        },
+        {
+            "corrige": "FormuleKonig-Huygensetproprietesvariance.png",
+            "enonce": "Proposition : 2 propriétés de la variance + formule de König-Huygens ?",
+            "importance": 1
+        },
+        {
+            "corrige": "FormuleloiBernoulli.png",
+            "enonce": "Loi de Bernoulli ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Formuleloibinomiale.png",
+            "enonce": "Loi binomiale ?",
+            "importance": 1
+        },
+        {
+            "corrige": "FormuleloidePoisson.png",
+            "enonce": "Loi de Poisson ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Formuleloigeometrique.png",
+            "enonce": "Loi géométrique ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Formuleloiuniforme.png",
+            "enonce": "Loi uniforme ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Inclusionmomentdordrepetq.png",
+            "enonce": "Proposition : Inclusion des ensembles des VA réelles de moment d’ordre p et q (p < q) ?",
+            "importance": 1
+        },
+        {
+            "corrige": "IndependanceVAparapplication.png",
+            "enonce": "Proposition :  Si X et Y sont 2 VA indépendantes, conséquence sur f(X) et g(Y) ? (f et g des fonctions quelconques)",
+            "importance": 1
+        },
+        {
+            "corrige": "Inegaliteavecesperance+formuleavecfonctionindicatrice.png",
+            "enonce": "Proposition : 7 propriétés de l’espérance ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "InegalitedeBienayme-Tchebychev.png",
+            "enonce": "Inégalité de Bienaymé-Tchebychev ?",
+            "importance": 1
+        },
+        {
+            "corrige": "InegalitedeMarkov.png",
+            "enonce": "Proposition : Inégalité de Markov",
+            "importance": 1
+        },
+        {
+            "corrige": "Laloifaibledesgrandsnombres.png",
+            "enonce": "Théorème : Loi faible des grands nombres ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "LienfonctionderepartitionetloidedeuxVA.png",
+            "enonce": "Théorème : lien entre fonction de répartition et loi de proba de 2 variables aléatoires ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Proprietescovariance.png",
+            "enonce": "Proposition : 2 propriétés de la covariance + variance d’une somme de 2 variables aléatoires",
+            "importance": 1
+        },
+        {
+            "corrige": "Proprietesesperancesfinies.png",
+            "enonce": "Proposition : 4 propriétés des variables aléatoires d’espérance finie ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Proprietesfonctionderepartition.png",
+            "enonce": "Proposition : 7 propriétés de la fonction de répartition ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Proprietesfonctiongeneratrice.png",
+            "enonce": "Proposition : 5 propriétés de la fonction génératrice ",
+            "importance": 1
+        },
+        {
+            "corrige": "ThapproximationloibinomialeparloidePoisson.png",
+            "enonce": "Théorème : Approximation de la loi binomiale par une loi de Poisson ? ",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "04 VA discrètes"
+}

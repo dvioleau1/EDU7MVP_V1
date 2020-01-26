@@ -1,0 +1,71 @@
+{
+    "chapitre": "Proba",
+    "flc": [
+        {
+            "corrige": "Def événement associé à une VA.png",
+            "enonce": "Def événement associé à une VA",
+            "importance": 3
+        },
+        {
+            "corrige": "DefVAcentree.png",
+            "enonce": "Définition : Variable aléatoire centrée",
+            "importance": 3
+        },
+        {
+            "corrige": "DefVAindependantes.png",
+            "enonce": "Définition : 2 variables aléatoires indépendantes ?",
+            "importance": 3
+        },
+        {
+            "corrige": "Esperancedunproduitavecindependance.png",
+            "enonce": "Théorème : Espérances de 2 variables aléatoire indépendantes ? ",
+            "importance": 3
+        },
+        {
+            "corrige": "Formulecovariance.png",
+            "enonce": "Définition : Formule de la covariance",
+            "importance": 3
+        },
+        {
+            "corrige": "Formule loi uniforme_Bernoulli_binomiale.png",
+            "enonce": "Formule loi uniforme_Bernoulli_binomiale",
+            "importance": 3
+        },
+        {
+            "corrige": "Formule variance_écart type.png",
+            "enonce": "Formule variance_écart type",
+            "importance": 3
+        },
+        {
+            "corrige": "Formule_propriétés corrélation.png",
+            "enonce": "Formule_propriétés corrélation",
+            "importance": 3
+        },
+        {
+            "corrige": "InegalitedeBienayme-Tchevychev.png",
+            "enonce": "Proposition : Inégalité de Bienaymé-Tchebychev",
+            "importance": 3
+        },
+        {
+            "corrige": "InegalitedeMarkov.png",
+            "enonce": "Proposition : Inégalité de Markov",
+            "importance": 3
+        },
+        {
+            "corrige": "Proprietesdelavarianceetsomme.png",
+            "enonce": "Proposition : 3 propriétés de la variance ?",
+            "importance": 3
+        },
+        {
+            "corrige": "Proprietesesperance.png",
+            "enonce": "Proposition : 3 propriétés de l’espérance",
+            "importance": 3
+        },
+        {
+            "corrige": "Stabilitedelindependanceparapplication.png",
+            "enonce": "Théorème : Si X et Y sont indépendants, conséquence sur f(X) et g(Y) ? (pour f et g des applications quelconques)",
+            "importance": 3
+        }
+    ],
+    "sous-chapitre": "02 VA finies"
+}

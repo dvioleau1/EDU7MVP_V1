@@ -190,16 +190,16 @@ class _FlashCardDecouverteState extends State<FlashCardDecouverte> with TickerPr
                                 MainAxisAlignment.spaceBetween ,
                                 children: <Widget>[
                                   //affichage du niveau d'importance ***, **, *
-                                  Text(
-                                    //"Importance "+snapshot.data[index][0],
-                                    "Importance ***",
-                                    style:
-                                    TextStyle(fontWeight: FontWeight.bold),
-                                  ),
+                                  // Text(
+                                  //   //"Importance "+snapshot.data[index][0],
+                                  //   " ",
+                                  //   style:
+                                  //   TextStyle(fontWeight: FontWeight.bold),
+                                  // ),
                            
-                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][1],height: 100,width: 300),
+                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][1],height: 80,width: 300),
                                     Divider(thickness:1, color:Colors.black ),
-                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 100,width: 300),
+                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 200,width: 300),
                                 // //Pour associer textes et images
                                 // Wrap(spacing: 2.0, // gap between adjacent chips
                                 // runSpacing: 1.0, // gap between lines
@@ -279,8 +279,7 @@ class _FlashCardDecouverteState extends State<FlashCardDecouverte> with TickerPr
     //Map<String, String> nameFiles = {"Algèbre-Algèbre bilinéaire":"AAB.json","Algèbre-Algèbre linéaire 1":"AAL1.json"};
     //String nameFile=nameFiles[category];
     //
-    String nameFile="./Flc"+filierematiere+"/"+category+".json";
-    print(io.File(nameFile).exists());
+    String nameFile="./Flc"+filierematiere+"/"+category;
 
     final String data= await rootBundle.loadString(nameFile);
     Future datas=convertDatas(data);

@@ -1,0 +1,76 @@
+{
+    "chapitre": "Algèbre",
+    "flc": [
+        {
+            "corrige": "Caracterisationvaleurpropre.png",
+            "enonce": "Caractérisation valeur propre ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "CayleyHamilton.png",
+            "enonce": "Théorème : Cayley-Hamilton ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Coefpolynomecar.png",
+            "enonce": "Théorème : 3 coefficients du polynôme caractéristique ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Defpolynomecaracteristique.png",
+            "enonce": "Définition : polynôme caractéristique ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Def valeur_vecteur propre, sous espace propre.png",
+            "enonce": "Def valeur_vecteur propre, sous espace propre",
+            "importance": 1
+        },
+        {
+            "corrige": "Lienentreespacestableetpolynomecaracteristique.png",
+            "enonce": "Si F est un sous-espace vectoriel stable par u, et v l’endomorphisme induit par u sur F, alors ?? ",
+            "importance": 1
+        },
+        {
+            "corrige": "LienmultipliciteetSEP.png",
+            "enonce": "Théorème : lien entre la multiplicité d’une valeur propre et le sous-espace propre ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "LienSEPetdeuxendocommutant.png",
+            "enonce": "Lemme : si deux endomorphismes commutent, alors ?? ",
+            "importance": 1
+        },
+        {
+            "corrige": "LienVPetpolynomecar.png",
+            "enonce": "Proposition : lien entre Sp(u) et racines du polynôme caractéristique",
+            "importance": 1
+        },
+        {
+            "corrige": "LienVPetracinespolannulateur.png",
+            "enonce": "Théorème : lien entre Sp(u) et un polynôme annotateur de u ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Polynome car d'un produit.png",
+            "enonce": "Polynome car d'un produit",
+            "importance": 1
+        },
+        {
+            "corrige": "SEPstableparapplication.png",
+            "enonce": "Proposition : sous espace propre et stabilité ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème fondamental de la diagonalisation ? ",
+            "enonce": "Théorème fondamental de la diagonalisation ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Theoremefondamental.png",
+            "enonce": "Théorème fondamental de la diagonalisation ? ",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "03 Réduction"
+}

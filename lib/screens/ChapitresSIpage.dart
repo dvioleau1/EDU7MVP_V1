@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-
+import 'package:flashcards/screens/ListeChapitres.dart';
 
 
 class ChapitresSI extends StatefulWidget {
@@ -94,7 +94,7 @@ class _ChapitresSIState extends State<ChapitresSI> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                         _openPage((_) => new WorkMode("Mécanique"+"-"+ this.mapChapitres[this.filiere]["Mécanique"][index],this.filiere+"SI"))
+                         _openPage((_) => new WorkMode(chapPSISI[this.mapChapitres[this.filiere]["Mécanique"][index]],this.filiere+"SI"))
                       },
                     );
                     
@@ -149,7 +149,7 @@ class _ChapitresSIState extends State<ChapitresSI> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                        _openPage((_) => new WorkMode("Automatique"+"-"+ this.mapChapitres[this.filiere]["Automatique"][index],this.filiere+"SI"))
+                        _openPage((_) => new WorkMode(chapPSISI[this.mapChapitres[this.filiere]["Automatique"][index]],this.filiere+"SI"))
 
                       },
                     );
@@ -205,7 +205,7 @@ class _ChapitresSIState extends State<ChapitresSI> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                        _openPage((_) => new WorkMode("SED"+"-"+ this.mapChapitres[this.filiere]["SED"][index],this.filiere+"SI"))
+                        _openPage((_) => new WorkMode(chapPSISI[this.mapChapitres[this.filiere]["SED"][index]],this.filiere+"SI"))
                       },
                     );
                     

@@ -1,0 +1,81 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "ConvSATP.png",
+            "enonce": "Proposition : Convergence d’une série à termes positifs ?",
+            "importance": 1
+        },
+        {
+            "corrige": "convserieintegrale.png",
+            "enonce": "Théorème : Convergence série intégrale ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Critdecomparaison.png",
+            "enonce": "Lemme : Critère de comparaison avec les inégalités ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Lemme : Critère de comparaison avec les inégalités ?",
+            "enonce": "Lemme : Critère de comparaison avec les inégalités ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Lemme : Critère de comparaison avec les inégalités ?",
+            "enonce": "Lemme : Critère de comparaison avec les inégalités ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Criterespecial+majoration.png",
+            "enonce": "Théorème : Critère spécial ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "DefproduitdeCauchy.png",
+            "enonce": "Définition : Produit de Cauchy ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Liennatureserieetsommepart.png",
+            "enonce": "Définition : Série convergente/divergente/majorée/minorée/croissante/décroissante ?",
+            "importance": 1
+        },
+        {
+            "corrige": "Resteserieconv.png",
+            "enonce": "Proposition : Reste d’une série convergente ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "ReglededAlembert.png",
+            "enonce": "Proposition : Règle de d’Alembert ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "ReglenalphaUn.png",
+            "enonce": "Proposition : Règle nalphaUn?",
+            "importance": 1
+        },
+        {
+            "corrige": "SeriedeRiemann.png",
+            "enonce": "Proposition : Série de Riemann ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Serie geo.png",
+            "enonce": "Serie geo",
+            "importance": 1
+        },
+        {
+            "corrige": "Serie geo1.png",
+            "enonce": "Serie geo1",
+            "importance": 1
+        },
+        {
+            "corrige": "ThdeCauchy.png",
+            "enonce": "Théorème de Cauchy",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "03 Séries numériques"
+}

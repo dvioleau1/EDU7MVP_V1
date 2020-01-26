@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:ui';
+import 'dart:io' as io;
 
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/cupertino.dart';
@@ -384,7 +385,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
 
     return PlatformScaffold(
       appBar: PlatformAppBar(
-        title: Text("Mode"),
+        title: Text("Mode Apprentissage"),
       ),
       iosContentPadding: true,
       body: NotificationListener<ScrollNotification>(
@@ -407,9 +408,11 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
   
   static Future getAllFlashCards(String category,String filierematiere) async {
     //get datas from json file
-    String nameFile="./Flc"+filierematiere+"/"+category+".json";
+    String nameFile="./Flc"+filierematiere+"/"+category;
+    Future datas;
     final String data= await rootBundle.loadString(nameFile);
-    return convertDatas(data);
+    datas=convertDatas(data);
+    return datas;
 
   }
 

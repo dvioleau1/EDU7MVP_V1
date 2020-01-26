@@ -1,0 +1,76 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "defcarserieCVN.png",
+            "enonce": "Définition : Série qui converge normalement + Méthode en pratique ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "defcarserieCVU.png",
+            "enonce": "Définition : Série qui converge uniformément + Méthode en pratique ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "suiteCVU.png",
+            "enonce": "Définition : Suite qui converge normalement + Méthode en pratique ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "suiteserieCVS.png",
+            "enonce": "Définition : Suite/Série qui converge simplement ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Thcontinuitelimsom.png",
+            "enonce": "Théorème de continuité de la limite (et somme) ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dbl lim.png",
+            "enonce": "Th dbl lim",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dbl lim1.png",
+            "enonce": "Th dbl lim1",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de dérivation de la limite pour une suite de fonctions de classe C1 ? ",
+            "enonce": "Théorème de dérivation de la limite pour une suite de fonctions de classe C1 ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Thderivationlim.png",
+            "enonce": "Théorème de dérivation de la limite pour une suite de fonctions de classe C1 ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de dérivation de la somme pour une suite de fonctions de classe C1 ? ",
+            "enonce": "Théorème de dérivation de la somme pour une suite de fonctions de classe C1 ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Thderivationsom.png",
+            "enonce": "Théorème de dérivation de la somme pour une suite de fonctions de classe C1 ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Thpermulimint.png",
+            "enonce": "Théorème de permutation limite/intégrale ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Thpermulimsom.png",
+            "enonce": "Théorème de permutation limite/somme ? ",
+            "importance": 1
+        },
+        {
+            "corrige": "Thpermusomint.png",
+            "enonce": "Théorème de permutation somme/intégrale ? ",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "04 Suites de fonction"
+}

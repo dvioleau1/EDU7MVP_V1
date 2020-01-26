@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-
+import 'package:flashcards/screens/ListeChapitres.dart';
 
 class ChapitresMaths extends StatefulWidget {
   final String filiere;
@@ -31,13 +31,13 @@ class _ChapitresMathsState extends State<ChapitresMaths> {
   Map<String, Map<String, List<String>> > mapChapitres={"PCSI":{"Analyse":["01 Analyse SUP","02 Suites numériques","03 Séries numériques",
   "04 Suites de fonction","05 Séries entières","06 Primitives","07 Equations différentielles","08 Intégration","09 Lebesgue","10 Intégrales à paramètre"
   ,"11 EVN","12 Fonctions de plusieurs variables",   "13 Trigonométrie"],
-  "Algèbre":["01 Algèbre linéaire 1","02 Algèbre linéaire 2","03 Réduction","04 Algèbre bilinéaire"],
-  "Probabilités":["01 Proba discrètes","02 VA finies","03 Proba discrètes","04 VA discrètes"]}
-  ,"PSI":{"Analyse":["01 Analyse SUP","02 Suites numériques","03 Séries numériques",
-  "04 Suites de fonction","05 Séries entières","06 Primitives","07 Equations différentielles","08 Intégration","09 Lebesgue","10 Intégrales à paramètre"
-  ,"11 EVN","12 Fonctions de plusieurs variables",   "13 Trigonométrie"],
-  "Algèbre":["01 Algèbre linéaire 1","02 Algèbre linéaire 2","03 Réduction","04 Algèbre bilinéaire"],
-  "Probabilités":["01 Proba discrètes","02 VA finies","03 Proba discrètes","04 VA discrètes"]}};
+  "Algèbre":["Algèbre linéaire","Réduction","Algèbre bilinéaire"],
+  "Probabilités":["VA finies","VA discrètes"]}
+  ,"PSI":{"Analyse":["Analyse SUP","Suites numériques","Séries numériques",
+  "Suites de fonction","Séries entières","Equations différentielles","Intégration","Intégrales à paramètre et Lebesgue",
+  "EVN","Formules de trigonométrie"],
+  "Algèbre":["Algèbre linéaire","Réduction","Algèbre bilinéaire"],
+  "Probabilités":["VA finies","VA discrètes"]}};
 
   _ChapitresMathsState(this.filiere);
   @override
@@ -95,7 +95,7 @@ class _ChapitresMathsState extends State<ChapitresMaths> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                         _openPage((_) => new WorkMode("Analyse"+"-"+ this.mapChapitres[this.filiere]["Analyse"][index],this.filiere+"Maths"))
+                         _openPage((_) => new WorkMode(chapPSIMaths[this.mapChapitres[this.filiere]["Analyse"][index]],this.filiere+"Maths"))
                       },
                     );
                     
@@ -150,7 +150,7 @@ class _ChapitresMathsState extends State<ChapitresMaths> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                        _openPage((_) => new WorkMode("Algèbre"+"-"+ this.mapChapitres[this.filiere]["Algèbre"][index],this.filiere+"Maths"))
+                        _openPage((_) => new WorkMode(chapPSIMaths[this.mapChapitres[this.filiere]["Algèbre"][index]],this.filiere+"Maths"))
 
                       },
                     );
@@ -206,7 +206,7 @@ class _ChapitresMathsState extends State<ChapitresMaths> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                        _openPage((_) => new WorkMode("Probabilités"+"-"+ this.mapChapitres[this.filiere]["Probabilités"][index],this.filiere+"Maths"))
+                        _openPage((_) => new WorkMode(chapPSIMaths[this.mapChapitres[this.filiere]["Probabilités"][index]],this.filiere+"Maths"))
  
                       },
                     );

@@ -1,0 +1,116 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "Caractérisation des difféomorphismes.png",
+            "enonce": "Caractérisation des difféomorphismes",
+            "importance": 2
+        },
+        {
+            "corrige": "Continuité_dérivabilité d'une primitive en fonction de f.png",
+            "enonce": "Continuité_dérivabilité d'une primitive en fonction de f",
+            "importance": 2
+        },
+        {
+            "corrige": "Def Cp difféomorph.png",
+            "enonce": "Def Cp difféomorph",
+            "importance": 2
+        },
+        {
+            "corrige": "Defderivabilite.png",
+            "enonce": "Définition : une fonction f est dérivable en un point a <=> ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Defvaleurmoydunefonction.png",
+            "enonce": "Définition : Formule de la valeur moyenne d’une fonction sur un segment [a,b] ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Deriveedelareciproque.png",
+            "enonce": "Théorème : Formule de la dérivée de la réciproque ? (+ Hypothèses) ?",
+            "importance": 2
+        },
+        {
+            "corrige": "Egalitedesaccroissementsfinis.png",
+            "enonce": "Théorème : égalité des accroissements finis ?",
+            "importance": 2
+        },
+        {
+            "corrige": "FormuledeLeibniz.png",
+            "enonce": "Théorème : Formule de Leibniz ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "FormuledeTayloravecresteintegral.png",
+            "enonce": "Théorème : Formule de Taylor avec reste intégral ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "FormuledeTaylor-Young.png",
+            "enonce": "Théorème : Formule de Taylor-Young",
+            "importance": 2
+        },
+        {
+            "corrige": "HYPPositivitedelintegrale.png",
+            "enonce": "Proposition : positivité de l’intégrale ? (Hypothèses)",
+            "importance": 2
+        },
+        {
+            "corrige": "HYPstrictepositivitedelint.png",
+            "enonce": "Théorème : stricte positivité de l’intégrale ? (Hypothèses)",
+            "importance": 2
+        },
+        {
+            "corrige": "InegalitedeCauchy-Schwartz.png",
+            "enonce": "Théorème : Inégalité de Cauchy-Schwarz",
+            "importance": 2
+        },
+        {
+            "corrige": "Inegalitedesaccroissementsfinis.png",
+            "enonce": "Théorème : Inégalité des accroissements finis",
+            "importance": 2
+        },
+        {
+            "corrige": "Inégalité_égalité de Taylor-Lagrange.png",
+            "enonce": "Inégalité_égalité de Taylor-Lagrange",
+            "importance": 2
+        },
+        {
+            "corrige": "SommedeRiemann.png",
+            "enonce": "Corollaire : Formule de la somme de Riemann ? ",
+            "importance": 2
+        },
+        {
+            "corrige": "Stabilité dérivabilité_classe Cp par opération 1.png",
+            "enonce": "Stabilité dérivabilité_classe Cp par opération 1",
+            "importance": 2
+        },
+        {
+            "corrige": "Stabilité dérivabilité_classe Cp par opération 2.png",
+            "enonce": "Stabilité dérivabilité_classe Cp par opération 2",
+            "importance": 2
+        },
+        {
+            "corrige": "Stabilité dérivabilité_classe Cp par opération.png",
+            "enonce": "Stabilité dérivabilité_classe Cp par opération",
+            "importance": 2
+        },
+        {
+            "corrige": "Theoremedecompacite.png",
+            "enonce": "Théorème de compacité",
+            "importance": 2
+        },
+        {
+            "corrige": "TheoremedeprolongementCk.png",
+            "enonce": "Théorème : prolongement Ck ?",
+            "importance": 2
+        },
+        {
+            "corrige": "TheoremedeRolle.png",
+            "enonce": "Théorème de Rolle ? ",
+            "importance": 2
+        }
+    ],
+    "sous-chapitre": "01 Analyse SUP"
+}
