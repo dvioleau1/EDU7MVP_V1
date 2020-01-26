@@ -1,0 +1,86 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "A.png",
+            "enonce": "A",
+            "importance": 1
+        },
+        {
+            "corrige": "Astuce fraction rationnelle 0.png",
+            "enonce": "Astuce fraction rationnelle 0",
+            "importance": 1
+        },
+        {
+            "corrige": "Astuce fraction rationnelle.png",
+            "enonce": "Astuce fraction rationnelle",
+            "importance": 1
+        },
+        {
+            "corrige": "B.png",
+            "enonce": "B",
+            "importance": 1
+        },
+        {
+            "corrige": "C.png",
+            "enonce": "C",
+            "importance": 1
+        },
+        {
+            "corrige": "D.png",
+            "enonce": "D",
+            "importance": 1
+        },
+        {
+            "corrige": "DES de 2nd espèce 0.png",
+            "enonce": "DES de 2nd espèce 0",
+            "importance": 1
+        },
+        {
+            "corrige": "DES de 2nd espèce.png",
+            "enonce": "DES de 2nd espèce",
+            "importance": 1
+        },
+        {
+            "corrige": "fonction du type cos(T)sin(T) 0.png",
+            "enonce": "fonction du type cos(T)sin(T) 0",
+            "importance": 1
+        },
+        {
+            "corrige": "fonction du type cos(T)sin(T).png",
+            "enonce": "fonction du type cos(T)sin(T)",
+            "importance": 1
+        },
+        {
+            "corrige": "fonction R(cosT,sinT) avec arc moitié.png",
+            "enonce": "fonction R(cosT,sinT) avec arc moitié",
+            "importance": 1
+        },
+        {
+            "corrige": "fonctions du type R(chT,shT).png",
+            "enonce": "fonctions du type R(chT,shT)",
+            "importance": 1
+        },
+        {
+            "corrige": "fonctions du type R(exp(ax)).png",
+            "enonce": "fonctions du type R(exp(ax))",
+            "importance": 1
+        },
+        {
+            "corrige": "Hyp changement de variables.png",
+            "enonce": "Hyp changement de variables",
+            "importance": 1
+        },
+        {
+            "corrige": "IPP multiples.png",
+            "enonce": "IPP multiples",
+            "importance": 1
+        },
+        {
+            "corrige": "Trigo hyperbolique.png",
+            "enonce": "Trigo hyperbolique",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "06 Primitives"
+}

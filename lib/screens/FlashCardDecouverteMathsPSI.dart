@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:ui';
+import 'dart:io' as io;
 
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/cupertino.dart';
@@ -9,6 +10,8 @@ import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
 //import 'package:http/http.dart' as http;
 import 'package:flutter/services.dart' show rootBundle;
 //import 'package:extended_text/extended_text.dart';
+
+Map<int,String> importance={1:"Notion très importante",2:"Notion complémentaire",3:"Notion occasionnelle",4:"Notion très rare"};
 
 class FlashCardDecouverteMathsPSI extends StatefulWidget {
   final String category;
@@ -177,7 +180,7 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
                               MediaQuery
                                   .of(context)
                                   .size
-                                  .height * 0.10),
+                                  .height * 0.05),
                           child: Container(
                               padding: EdgeInsets.symmetric(
                                   vertical: 0.04 * heightSize,
@@ -190,15 +193,27 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
                                 MainAxisAlignment.spaceBetween ,
                                 children: <Widget>[
                                   //affichage du niveau d'importance ***, **, *
-                                  Text(
-                                    //"Importance "+snapshot.data[index][0],
-                                    "Importance ***",
+                                  Row(mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                            children: <Widget>[
+                                              Text(""),
+                                              Text( importance[snapshot.data[index][0]],
                                     style:
                                     TextStyle(fontWeight: FontWeight.bold),
-                                  ),
+                                  )                                  ,  
+                                  
+
+                                  IconButton(
+        icon: Icon(Icons.apps),
+        tooltip: 'Affiche l\'ensemble des notions de cette catégories',
+        onPressed: () {}
+          ),
+          
+                                            ]),
+                                            Divider(thickness:1, color:Colors.black ),
                                   Text(snapshot.data[index][1],textAlign: TextAlign.center),
                                     Divider(thickness:1, color:Colors.black ),
-                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 100,width: 300),
+                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 200,width: 300),
                                 // //Pour associer textes et images
                                 // Wrap(spacing: 2.0, // gap between adjacent chips
                                 // runSpacing: 1.0, // gap between lines
@@ -275,7 +290,8 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
   
   static Future getAllFlashCards(String category,String filierematiere) async {
     //get datas from json file
-    String nameFile="Flc"+filierematiere+"/"+category+".json";
+    String nameFile="./Flc"+filierematiere+"/"+category+".json";
+    print(io.File(nameFile).exists());
     final String data= await rootBundle.loadString(nameFile);
     Future datas=convertDatas(data);
     return datas;
@@ -290,7 +306,7 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
     List<dynamic> listArray = [];
     for (int i = 0; i < datajson["flc"].length; i++){
         String enonce=(datajson["flc"][i]["enonce"]) ;
-        String title=(datajson["flc"][i]["importance"]) ;
+        int title=(datajson["flc"][i]["importance"]) ;
         String corrige=(datajson["flc"][i]["corrige"]) ;
         listArray.add([ title,enonce,corrige]);
     }

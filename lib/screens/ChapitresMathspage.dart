@@ -28,14 +28,16 @@ class _ChapitresMathsState extends State<ChapitresMaths> {
   "Algèbre":["Algèbre linéaire 1","Algèbre linéaire 2","Réduction","Algèbre bilinéaire"],
   "Probabilités":["Proba discrètes","Proba discrètes","VA finies","VA discrètes"]};
   
-  Map<String, Map<String, List<String>> > mapChapitres={"PCSI":{"Analyse":["Analyse SUP","Equa diff","EVN","Fonctions de plusieurs variables",
-  "Intégration","Primitives","Séries entières","Séries numériques","Suites de fonction","Suites numériques","Formules trigo"],
-  "Algèbre":["Algèbre linéaire 1","Algèbre linéaire 2","Réduction","Algèbre bilinéaire"],
-  "Probabilités":["Proba discrètes","Proba discrètes","VA finies","VA discrètes"]}
-  ,"PSI":{"Analyse":["Analyse SUP","Equa diff","EVN","Fonctions de plusieurs variables",
-  "Intégration","Primitives","Séries entières","Séries numériques","Suites de fonction","Suites numériques","Formules trigo"],
-  "Algèbre":["Algèbre linéaire 1","Algèbre linéaire 2","Réduction","Algèbre bilinéaire"],
-  "Probabilités":["Proba discrètes","Proba discrètes","VA finies","VA discrètes"]}};
+  Map<String, Map<String, List<String>> > mapChapitres={"PCSI":{"Analyse":["01 Analyse SUP","02 Suites numériques","03 Séries numériques",
+  "04 Suites de fonction","05 Séries entières","06 Primitives","07 Equations différentielles","08 Intégration","09 Lebesgue","10 Intégrales à paramètre"
+  ,"11 EVN","12 Fonctions de plusieurs variables",   "13 Trigonométrie"],
+  "Algèbre":["01 Algèbre linéaire 1","02 Algèbre linéaire 2","03 Réduction","04 Algèbre bilinéaire"],
+  "Probabilités":["01 Proba discrètes","02 VA finies","03 Proba discrètes","04 VA discrètes"]}
+  ,"PSI":{"Analyse":["01 Analyse SUP","02 Suites numériques","03 Séries numériques",
+  "04 Suites de fonction","05 Séries entières","06 Primitives","07 Equations différentielles","08 Intégration","09 Lebesgue","10 Intégrales à paramètre"
+  ,"11 EVN","12 Fonctions de plusieurs variables",   "13 Trigonométrie"],
+  "Algèbre":["01 Algèbre linéaire 1","02 Algèbre linéaire 2","03 Réduction","04 Algèbre bilinéaire"],
+  "Probabilités":["01 Proba discrètes","02 VA finies","03 Proba discrètes","04 VA discrètes"]}};
 
   _ChapitresMathsState(this.filiere);
   @override

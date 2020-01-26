@@ -8,6 +8,8 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
+Map<int,String> importance={1:"Notion très importante",2:"Notion complémentaire",3:"Notion occasionnelle",4:"Notion très rare"};
+
 class FlashCard2 extends StatefulWidget {
   final String category;
   final String filierematiere;
@@ -30,6 +32,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
   String category;
   String filierematiere;
   List<List<String>> allFlashCards;
+  final int value=0;
 
   ScrollController _smoothScrollController;
 
@@ -163,7 +166,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
                         vsync: this,
                         animationBehavior: AnimationBehavior.normal);
                     _controller.animateTo(_controller.lowerBound);
-                    final list = FlipCard(
+                    final list =FlipCard(
                         front: Card(
                           elevation: 8.0,
                           margin: new EdgeInsets.symmetric(
@@ -176,7 +179,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
                               MediaQuery
                                   .of(context)
                                   .size
-                                  .height * 0.10),
+                                  .height * 0.05),
                           child: Container(
                               padding: EdgeInsets.symmetric(
                                   vertical: 0.04 * heightSize,
@@ -189,12 +192,21 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
                                 MainAxisAlignment.spaceBetween ,
                                 children: <Widget>[
                                   //affichage du niveau d'importance ***, **, *
-                                  Text(
-                                    //"Importance "+snapshot.data[index][0],
-                                    "Importance ***",
+                                  Row(mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                            children: <Widget>[
+                                              Text(""),
+                                              Text( importance[snapshot.data[index][0]],
                                     style:
                                     TextStyle(fontWeight: FontWeight.bold),
-                                  ),
+                                  )
+                                  ,IconButton(
+        icon: Icon(Icons.apps),
+        tooltip: 'Affiche l\'ensemble des notions de cette catégories',
+        onPressed: () {}
+          )
+                                            ]),
+                                  
                                 // //Pour associer textes et images
                                 // Wrap(spacing: 2.0, // gap between adjacent chips
                                 // runSpacing: 1.0, // gap between lines
@@ -232,7 +244,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
                                       .of(context)
                                       .size
                                       .height *
-                                      0.10),
+                                      0.05),
 
                               child: Container(
                                   padding: EdgeInsets.symmetric(
@@ -253,7 +265,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
                                             fontWeight: FontWeight.bold),
                                       ),
                                       
-                                      Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 300,width: 300),
+                                      Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 250,width: 300),
                                       // Text(
                                       //   snapshot.data[index][2],
                                       //   textAlign: TextAlign.center
@@ -267,50 +279,83 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
                                         children: <Widget>[
                                           Text(
                                               "La Flashcard est-elle maîtrisée ?"),
-                                          Row(
-                                            mainAxisAlignment:
+                                              //StarDisplay(value: 3)
+                                              //StarRating(value:0),
+                                              StatefulStarRating(),
+                                              Row(
+                                                mainAxisAlignment:
                                             MainAxisAlignment.center,
                                             children: <Widget>[
-                                              RaisedButton(
-                                                child: Icon(Icons
-                                                    .sentiment_very_dissatisfied),
-                                                onPressed: () {
-                                                  _controller.forward(
-                                                      from: _controller
-                                                          .lowerBound);
-                                                  _controller.animateTo(0.33);
-                                                  moveToNextCard();
-                                                },
-                                              ),
-                                              RaisedButton(
-                                                child: Icon(
-                                                    Icons.sentiment_neutral),
-                                                onPressed: () {
-                                                  _controller.forward(
-                                                      from: 0.34);
-                                                  _controller.animateTo(0.66);
-                                                  moveToNextCard();
-                                                },
-                                              ),
-                                              RaisedButton(
-                                                child: Icon(Icons
-                                                    .sentiment_very_satisfied),
-                                                onPressed: () {
-                                                  _controller.forward(
-                                                      from: 0.67);
-                                                  _controller.animateTo(1);
-                                                  moveToNextCard();
-                                                },
+                                                    RaisedButton(
+                                                      padding: EdgeInsets.all(10.0),
+                                                      child: new Text(
+                                                          "Pas vu",
+                                                      ),
+                                                      onPressed:(){
+                                                          moveToNextCard();
+                                                      })
+                                                    ,
+                                                    FlatButton(
+                                                      onPressed: () => {moveToNextCard()},
+
+                                                      padding: EdgeInsets.all(10.0),
+                                                      child: Row( // Replace with a Row for horizontal icon + text
+                                                        children: <Widget>[
+                                                          Text("Suivante"),
+                                                          Icon(Icons.play_arrow),
+                                                          
+                                                        ],
+                                                      )
+                                                      )
+                                            ]
                                               )
-                                            ],
-                                          )
+                                              
+                            
+                                          // Row(
+                                          //   mainAxisAlignment:
+                                          //   MainAxisAlignment.center,
+                                          //   children: <Widget>[
+                                          //     RaisedButton(
+                                          //       child: Icon(Icons
+                                          //           .sentiment_very_dissatisfied),
+                                          //       onPressed: () {
+                                          //         _controller.forward(
+                                          //             from: _controller
+                                          //                 .lowerBound);
+                                          //         _controller.animateTo(0.33);
+                                          //         moveToNextCard();
+                                          //       },
+                                          //     ),
+                                          //     RaisedButton(
+                                          //       child: Icon(
+                                          //           Icons.sentiment_neutral),
+                                          //       onPressed: () {
+                                          //         _controller.forward(
+                                          //             from: 0.34);
+                                          //         _controller.animateTo(0.66);
+                                          //         moveToNextCard();
+                                          //       },
+                                          //     ),
+                                          //     RaisedButton(
+                                          //       child: Icon(Icons
+                                          //           .sentiment_very_satisfied),
+                                          //       onPressed: () {
+                                          //         _controller.forward(
+                                          //             from: 0.67);
+                                          //         _controller.animateTo(1);
+                                          //         moveToNextCard();
+                                          //       },
+                                          //     )
+                                          //   ],
+                                          // )
                                         ],
                                       )
                                     ],
-                                  )),
-                            );
+                                  ),
+                            ));
                           },
                         ));
+
                     return Container(
                       height: MediaQuery
                           .of(context)
@@ -357,11 +402,12 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
     );
   }
 
+
   /// Get flashcards for a category as a list
   
   static Future getAllFlashCards(String category,String filierematiere) async {
     //get datas from json file
-    String nameFile="Flc"+filierematiere+"/"+category+".json";
+    String nameFile="./Flc"+filierematiere+"/"+category+".json";
     final String data= await rootBundle.loadString(nameFile);
     return convertDatas(data);
 
@@ -374,7 +420,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
     List<dynamic> listArray = [];
     for (int i = 0; i < datajson["flc"].length; i++){
         String enonce=(datajson["flc"][i]["enonce"]) ;
-        String title=(datajson["flc"][i]["importance"]) ;
+        int title=(datajson["flc"][i]["importance"]) ;
         String corrige=(datajson["flc"][i]["corrige"]) ;
         listArray.add([ title,enonce,corrige]);
     }
@@ -383,3 +429,86 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
 
 }
 
+  // class StarDisplay extends StatelessWidget {
+  //   final int value;
+  //   const StarDisplay({Key key, this.value = 0})
+  //       : assert(value != null),
+  //         super(key: key);
+  //   @override
+  //   Widget build(BuildContext context) {
+  //     return Row(
+  //       mainAxisSize: MainAxisSize.min,
+  //       children: List.generate(5, (index) {
+  //         return IconTheme(
+  //                 data: IconThemeData(
+  //                   color: Colors.amber,
+  //                   size: 48,
+  //                 ),
+  //                 child: Icon(
+  //                           index < value ? Icons.star : Icons.star_border,
+  //                         )
+  //                       );
+  //                 }),
+  //             );
+  //   }
+  // }
+
+class StarRating extends StatelessWidget {
+  final int value;
+  final IconData filledStar;
+  final IconData unfilledStar;
+  final void Function(int index) onChanged;
+  const StarRating({
+    Key key,
+    this.value = 0,
+    this.onChanged,
+    this.filledStar,
+    this.unfilledStar,
+  })  : assert(value != null),
+        super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    final color = Theme.of(context).accentColor;
+    final size = 36.0;
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: List.generate(5, (index) {
+        return IconButton(
+          onPressed: onChanged != null
+              ? () {
+                  onChanged(value == index + 1 ? index : index + 1);
+                }
+              : null,
+          color: index < value ? color : null,
+          iconSize: size,
+          icon: Icon(
+            index < value 
+               ? filledStar ?? Icons.star 
+               : unfilledStar ?? Icons.star_border,
+          ),
+          padding: EdgeInsets.zero,
+          tooltip: "${index + 1} of 5",
+        );
+      }),
+    );
+  }
+}
+
+class StatefulStarRating extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    int rating = 0;
+    return StatefulBuilder(
+      builder: (context, setState) {
+        return StarRating(
+          onChanged: (index) {
+            setState(() {
+              rating = index;
+            });
+          },
+          value: rating,
+        );
+      },
+    );
+  }
+}

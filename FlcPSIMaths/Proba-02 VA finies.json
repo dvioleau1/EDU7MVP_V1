@@ -1,0 +1,71 @@
+{
+    "chapitre": "Proba",
+    "flc": [
+        {
+            "corrige": "Def événement associé à une VA.png",
+            "enonce": "Def événement associé à une VA",
+            "importance": 1
+        },
+        {
+            "corrige": "Def VA centrée.png",
+            "enonce": "Def VA centrée",
+            "importance": 1
+        },
+        {
+            "corrige": "Def VA indépendantes.png",
+            "enonce": "Def VA indépendantes",
+            "importance": 1
+        },
+        {
+            "corrige": "Espérance d'un produit avec indépendance.png",
+            "enonce": "Espérance d'un produit avec indépendance",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule covariance.png",
+            "enonce": "Formule covariance",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule loi uniforme_Bernoulli_binomiale.png",
+            "enonce": "Formule loi uniforme_Bernoulli_binomiale",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule variance_écart type.png",
+            "enonce": "Formule variance_écart type",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule_propriétés corrélation.png",
+            "enonce": "Formule_propriétés corrélation",
+            "importance": 1
+        },
+        {
+            "corrige": "Inégalité de Bienaymé-Tchevychev.png",
+            "enonce": "Inégalité de Bienaymé-Tchevychev",
+            "importance": 1
+        },
+        {
+            "corrige": "Inégalité de Markov.png",
+            "enonce": "Inégalité de Markov",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés de la variance et somme.png",
+            "enonce": "Propriétés de la variance et somme",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés espérance.png",
+            "enonce": "Propriétés espérance",
+            "importance": 1
+        },
+        {
+            "corrige": "Stabilité de l'indépendance par application.png",
+            "enonce": "Stabilité de l'indépendance par application",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "02 VA finies"
+}

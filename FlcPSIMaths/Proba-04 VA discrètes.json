@@ -1,0 +1,171 @@
+{
+    "chapitre": "Proba",
+    "flc": [
+        {
+            "corrige": "Caractérisation fonction génératrice et loi de proba.png",
+            "enonce": "Caractérisation fonction génératrice et loi de proba",
+            "importance": 1
+        },
+        {
+            "corrige": "Cauchy-Schwartz + HYP.png",
+            "enonce": "Cauchy-Schwartz + HYP",
+            "importance": 1
+        },
+        {
+            "corrige": "Def d'un moment d'ordre p.png",
+            "enonce": "Def d'un moment d'ordre p",
+            "importance": 1
+        },
+        {
+            "corrige": "Def d'une VA d'espérance finie.png",
+            "enonce": "Def d'une VA d'espérance finie",
+            "importance": 1
+        },
+        {
+            "corrige": "Def d'une variance finie.png",
+            "enonce": "Def d'une variance finie",
+            "importance": 1
+        },
+        {
+            "corrige": "Def fonction de repartition.png",
+            "enonce": "Def fonction de repartition",
+            "importance": 1
+        },
+        {
+            "corrige": "Def loi conjointe d'un couple 1.png",
+            "enonce": "Def loi conjointe d'un couple 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Def loi conjointe d'un couple 2.png",
+            "enonce": "Def loi conjointe d'un couple 2",
+            "importance": 1
+        },
+        {
+            "corrige": "Def VA mutuellement indep.png",
+            "enonce": "Def VA mutuellement indep",
+            "importance": 1
+        },
+        {
+            "corrige": "Espérance du produit de 2 VA indep.png",
+            "enonce": "Espérance du produit de 2 VA indep",
+            "importance": 1
+        },
+        {
+            "corrige": "Espérance du produit de 2 VA par application.png",
+            "enonce": "Espérance du produit de 2 VA par application",
+            "importance": 1
+        },
+        {
+            "corrige": "Fonction génératrice de 2 VA indépendantes.png",
+            "enonce": "Fonction génératrice de 2 VA indépendantes",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule coefficient de corrélation + propriétés.png",
+            "enonce": "Formule coefficient de corrélation + propriétés",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule covariance.png",
+            "enonce": "Formule covariance",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule de transfert.png",
+            "enonce": "Formule de transfert",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule Konig-Huygens et propriétés variance.png",
+            "enonce": "Formule Konig-Huygens et propriétés variance",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule loi Bernoulli.png",
+            "enonce": "Formule loi Bernoulli",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule loi binomiale.png",
+            "enonce": "Formule loi binomiale",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule loi de Poisson.png",
+            "enonce": "Formule loi de Poisson",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule loi géométrique.png",
+            "enonce": "Formule loi géométrique",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule loi uniforme.png",
+            "enonce": "Formule loi uniforme",
+            "importance": 1
+        },
+        {
+            "corrige": "Inclusion moment d'ordre p et q.png",
+            "enonce": "Inclusion moment d'ordre p et q",
+            "importance": 1
+        },
+        {
+            "corrige": "Indépendance VA par application.png",
+            "enonce": "Indépendance VA par application",
+            "importance": 1
+        },
+        {
+            "corrige": "Inégalité avec espérance + formule avec fonction indicatrice.png",
+            "enonce": "Inégalité avec espérance + formule avec fonction indicatrice",
+            "importance": 1
+        },
+        {
+            "corrige": "Inégalité de Bienaymé-Tchebychev.png",
+            "enonce": "Inégalité de Bienaymé-Tchebychev",
+            "importance": 1
+        },
+        {
+            "corrige": "Inégalité de Markov.png",
+            "enonce": "Inégalité de Markov",
+            "importance": 1
+        },
+        {
+            "corrige": "La loi faible des grands nombres.png",
+            "enonce": "La loi faible des grands nombres",
+            "importance": 1
+        },
+        {
+            "corrige": "Lien fonction de répartition et loi de deux VA.png",
+            "enonce": "Lien fonction de répartition et loi de deux VA",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés covariance.png",
+            "enonce": "Propriétés covariance",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés espérances finies.png",
+            "enonce": "Propriétés espérances finies",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés fonction de répartition.png",
+            "enonce": "Propriétés fonction de répartition",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés fonction génératrice.png",
+            "enonce": "Propriétés fonction génératrice",
+            "importance": 1
+        },
+        {
+            "corrige": "Th approximation loi binomiale par loi de Poisson.png",
+            "enonce": "Th approximation loi binomiale par loi de Poisson",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "04 VA discrètes"
+}

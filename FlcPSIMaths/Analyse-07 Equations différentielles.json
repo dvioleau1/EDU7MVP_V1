@@ -1,0 +1,81 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "Lien entre les classes de fonction pour une EDN.png",
+            "enonce": "Lien entre les classes de fonction pour une EDN",
+            "importance": 1
+        },
+        {
+            "corrige": "Méthode de la variation de la constante.png",
+            "enonce": "Méthode de la variation de la constante",
+            "importance": 1
+        },
+        {
+            "corrige": "Normaliser une EDL 1er ordre.png",
+            "enonce": "Normaliser une EDL 1er ordre",
+            "importance": 1
+        },
+        {
+            "corrige": "Problème de Cauchy.png",
+            "enonce": "Problème de Cauchy",
+            "importance": 1
+        },
+        {
+            "corrige": "Recherche solution part 2nd ordre polynome exp 1.png",
+            "enonce": "Recherche solution part 2nd ordre polynome exp 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Recherche solution part 2nd ordre polynome exp 2.png",
+            "enonce": "Recherche solution part 2nd ordre polynome exp 2",
+            "importance": 1
+        },
+        {
+            "corrige": "Recherche solution part polynome exp 1er ordre.png",
+            "enonce": "Recherche solution part polynome exp 1er ordre",
+            "importance": 1
+        },
+        {
+            "corrige": "Résolution équation homogène 1er ordre.png",
+            "enonce": "Résolution équation homogène 1er ordre",
+            "importance": 1
+        },
+        {
+            "corrige": "Résolution équation homogène 2nd ordre 1.png",
+            "enonce": "Résolution équation homogène 2nd ordre 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Résolution équation homogène 2nd ordre 2.png",
+            "enonce": "Résolution équation homogène 2nd ordre 2",
+            "importance": 1
+        },
+        {
+            "corrige": "Résolution équation homogène 2nd ordre général.png",
+            "enonce": "Résolution équation homogène 2nd ordre général",
+            "importance": 1
+        },
+        {
+            "corrige": "Superposition solutions particulières.png",
+            "enonce": "Superposition solutions particulières",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de Cauchy-Lipschitz 1er ordre.png",
+            "enonce": "Théorème de Cauchy-Lipschitz 1er ordre",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de structure EDL 1er ordre.png",
+            "enonce": "Théorème de structure EDL 1er ordre",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de structure matrices.png",
+            "enonce": "Théorème de structure matrices",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "07 Equa diff"
+}

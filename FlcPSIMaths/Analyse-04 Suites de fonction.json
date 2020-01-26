@@ -1,0 +1,76 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "def car serie CVN.png",
+            "enonce": "def car serie CVN",
+            "importance": 1
+        },
+        {
+            "corrige": "def car serie CVU.png",
+            "enonce": "def car serie CVU",
+            "importance": 1
+        },
+        {
+            "corrige": "suite CVU.png",
+            "enonce": "suite CVU",
+            "importance": 1
+        },
+        {
+            "corrige": "suite serie CVS.png",
+            "enonce": "suite serie CVS",
+            "importance": 1
+        },
+        {
+            "corrige": "Th continuité lim som.png",
+            "enonce": "Th continuité lim som",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dbl lim.png",
+            "enonce": "Th dbl lim",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dbl lim1.png",
+            "enonce": "Th dbl lim1",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dérivation lim gen.png",
+            "enonce": "Th dérivation lim gen",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dérivation lim.png",
+            "enonce": "Th dérivation lim",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dérivation som gen.png",
+            "enonce": "Th dérivation som gen",
+            "importance": 1
+        },
+        {
+            "corrige": "Th dérivation som.png",
+            "enonce": "Th dérivation som",
+            "importance": 1
+        },
+        {
+            "corrige": "Th permu lim int.png",
+            "enonce": "Th permu lim int",
+            "importance": 1
+        },
+        {
+            "corrige": "Th permu lim som.png",
+            "enonce": "Th permu lim som",
+            "importance": 1
+        },
+        {
+            "corrige": "Th permu som int.png",
+            "enonce": "Th permu som int",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "04 Suites de fonction"
+}

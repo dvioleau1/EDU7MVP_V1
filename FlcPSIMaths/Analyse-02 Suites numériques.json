@@ -1,0 +1,76 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "Car conv suite et imf.png",
+            "enonce": "Car conv suite et imf",
+            "importance": 1
+        },
+        {
+            "corrige": "Car équivalent suite.png",
+            "enonce": "Car équivalent suite",
+            "importance": 1
+        },
+        {
+            "corrige": "Car suite récu.png",
+            "enonce": "Car suite récu",
+            "importance": 1
+        },
+        {
+            "corrige": "Def extractrice_sssuite.png",
+            "enonce": "Def extractrice_sssuite",
+            "importance": 1
+        },
+        {
+            "corrige": "Def équivalent.png",
+            "enonce": "Def équivalent",
+            "importance": 1
+        },
+        {
+            "corrige": "Def o O.png",
+            "enonce": "Def o O",
+            "importance": 1
+        },
+        {
+            "corrige": "Def suites adjacentes.png",
+            "enonce": "Def suites adjacentes",
+            "importance": 1
+        },
+        {
+            "corrige": "Etude d'une suite arithmético-geo.png",
+            "enonce": "Etude d'une suite arithmético-geo",
+            "importance": 1
+        },
+        {
+            "corrige": "Monotonie entre f et Un.png",
+            "enonce": "Monotonie entre f et Un",
+            "importance": 1
+        },
+        {
+            "corrige": "Solution suite récu lin d'ordre 2 a coef constant.png",
+            "enonce": "Solution suite récu lin d'ordre 2 a coef constant",
+            "importance": 1
+        },
+        {
+            "corrige": "Stabilité par f.png",
+            "enonce": "Stabilité par f",
+            "importance": 1
+        },
+        {
+            "corrige": "Th de Césaro.png",
+            "enonce": "Th de Césaro",
+            "importance": 1
+        },
+        {
+            "corrige": "Th de convergence.png",
+            "enonce": "Th de convergence",
+            "importance": 1
+        },
+        {
+            "corrige": "Th suite adj.png",
+            "enonce": "Th suite adj",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "02 Suites numériques"
+}

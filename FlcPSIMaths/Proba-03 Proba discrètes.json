@@ -1,0 +1,76 @@
+{
+    "chapitre": "Proba",
+    "flc": [
+        {
+            "corrige": "Carac X denom_au plus denom et non vide.png",
+            "enonce": "Carac X denom_au plus denom et non vide",
+            "importance": 1
+        },
+        {
+            "corrige": "Def ens fini_denom_au plus denom.png",
+            "enonce": "Def ens fini_denom_au plus denom",
+            "importance": 1
+        },
+        {
+            "corrige": "Def événement négligeable_presque certain.png",
+            "enonce": "Def événement négligeable_presque certain",
+            "importance": 1
+        },
+        {
+            "corrige": "Def fam indep et mutu indep.png",
+            "enonce": "Def fam indep et mutu indep",
+            "importance": 1
+        },
+        {
+            "corrige": "def SCE.png",
+            "enonce": "def SCE",
+            "importance": 1
+        },
+        {
+            "corrige": "Def sigma additivité.png",
+            "enonce": "Def sigma additivité",
+            "importance": 1
+        },
+        {
+            "corrige": "Ens denom + propriété.png",
+            "enonce": "Ens denom + propriété",
+            "importance": 1
+        },
+        {
+            "corrige": "Fo de Bayes.png",
+            "enonce": "Fo de Bayes",
+            "importance": 1
+        },
+        {
+            "corrige": "Fo proba totales.png",
+            "enonce": "Fo proba totales",
+            "importance": 1
+        },
+        {
+            "corrige": "Lemme pour mq A fin ou denom.png",
+            "enonce": "Lemme pour mq A fin ou denom",
+            "importance": 1
+        },
+        {
+            "corrige": "Opération ens denom.png",
+            "enonce": "Opération ens denom",
+            "importance": 1
+        },
+        {
+            "corrige": "Prop événement indep.png",
+            "enonce": "Prop événement indep",
+            "importance": 1
+        },
+        {
+            "corrige": "Th de continuité.png",
+            "enonce": "Th de continuité",
+            "importance": 1
+        },
+        {
+            "corrige": "Th sous-additivité.png",
+            "enonce": "Th sous-additivité",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "03 Proba discrètes"
+}

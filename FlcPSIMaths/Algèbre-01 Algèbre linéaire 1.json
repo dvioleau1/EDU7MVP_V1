@@ -1,0 +1,91 @@
+{
+    "chapitre": "Algèbre",
+    "flc": [
+        {
+            "corrige": "Caractérisation bijectivité et base.png",
+            "enonce": "Caractérisation bijectivité et base",
+            "importance": 1
+        },
+        {
+            "corrige": "Caractérisation d'un hyperplan.png",
+            "enonce": "Caractérisation d'un hyperplan",
+            "importance": 1
+        },
+        {
+            "corrige": "Caractérisation noyau formes linéaires.png",
+            "enonce": "Caractérisation noyau formes linéaires",
+            "importance": 1
+        },
+        {
+            "corrige": "Caractérisation somme directe 1.png",
+            "enonce": "Caractérisation somme directe 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Caractérisation somme directe.png",
+            "enonce": "Caractérisation somme directe",
+            "importance": 1
+        },
+        {
+            "corrige": "Caractérisation supplémentaires 1.png",
+            "enonce": "Caractérisation supplémentaires 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Caractérisation supplémentaires.png",
+            "enonce": "Caractérisation supplémentaires",
+            "importance": 1
+        },
+        {
+            "corrige": "Def base adaptée.png",
+            "enonce": "Def base adaptée",
+            "importance": 1
+        },
+        {
+            "corrige": "Def espace de dim fini.png",
+            "enonce": "Def espace de dim fini",
+            "importance": 1
+        },
+        {
+            "corrige": "Def hyperplan.png",
+            "enonce": "Def hyperplan",
+            "importance": 1
+        },
+        {
+            "corrige": "Def image réciproque.png",
+            "enonce": "Def image réciproque",
+            "importance": 1
+        },
+        {
+            "corrige": "Def SEV.png",
+            "enonce": "Def SEV",
+            "importance": 1
+        },
+        {
+            "corrige": "Def somme directe.png",
+            "enonce": "Def somme directe",
+            "importance": 1
+        },
+        {
+            "corrige": "Lemme de Steinitz.png",
+            "enonce": "Lemme de Steinitz",
+            "importance": 1
+        },
+        {
+            "corrige": "Lemme pour 2 endo qui commutent.png",
+            "enonce": "Lemme pour 2 endo qui commutent",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de la base incomplète.png",
+            "enonce": "Théorème de la base incomplète",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème morphisme d'algèbre.png",
+            "enonce": "Théorème morphisme d'algèbre",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "01 Algèbre linéaire 1"
+}

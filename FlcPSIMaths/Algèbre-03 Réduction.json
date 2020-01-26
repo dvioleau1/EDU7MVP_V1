@@ -1,0 +1,76 @@
+{
+    "chapitre": "Algèbre",
+    "flc": [
+        {
+            "corrige": "Caractérisation valeur propre.png",
+            "enonce": "Caractérisation valeur propre",
+            "importance": 1
+        },
+        {
+            "corrige": "Cayley Hamilton.png",
+            "enonce": "Cayley Hamilton",
+            "importance": 1
+        },
+        {
+            "corrige": "Coef polynôme car.png",
+            "enonce": "Coef polynôme car",
+            "importance": 1
+        },
+        {
+            "corrige": "Def polynôme caractéristique.png",
+            "enonce": "Def polynôme caractéristique",
+            "importance": 1
+        },
+        {
+            "corrige": "Def valeur_vecteur propre, sous espace propre.png",
+            "enonce": "Def valeur_vecteur propre, sous espace propre",
+            "importance": 1
+        },
+        {
+            "corrige": "Lien entre espace stable et polynome caractéristique.png",
+            "enonce": "Lien entre espace stable et polynome caractéristique",
+            "importance": 1
+        },
+        {
+            "corrige": "Lien multiplicité et SEP.png",
+            "enonce": "Lien multiplicité et SEP",
+            "importance": 1
+        },
+        {
+            "corrige": "Lien SEP et deux endo commutant.png",
+            "enonce": "Lien SEP et deux endo commutant",
+            "importance": 1
+        },
+        {
+            "corrige": "Lien VP et polynome car.png",
+            "enonce": "Lien VP et polynome car",
+            "importance": 1
+        },
+        {
+            "corrige": "Lien VP et racines pol annulateur.png",
+            "enonce": "Lien VP et racines pol annulateur",
+            "importance": 1
+        },
+        {
+            "corrige": "Polynome car d'un produit.png",
+            "enonce": "Polynome car d'un produit",
+            "importance": 1
+        },
+        {
+            "corrige": "SEP stable par application.png",
+            "enonce": "SEP stable par application",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème fondamental trigo.png",
+            "enonce": "Théorème fondamental trigo",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème fondamental.png",
+            "enonce": "Théorème fondamental",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "03 Réduction"
+}

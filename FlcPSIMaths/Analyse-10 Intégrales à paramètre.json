@@ -1,0 +1,31 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "Généralisation intégrale classe Cp 1.png",
+            "enonce": "Généralisation intégrale classe Cp 1",
+            "importance": 1
+        },
+        {
+            "corrige": "Généralisation intégrale classe Cp.png",
+            "enonce": "Généralisation intégrale classe Cp",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de continuité de l'intégrale.png",
+            "enonce": "Théorème de continuité de l'intégrale",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de dérivation sous le signe intégrale 2.png",
+            "enonce": "Théorème de dérivation sous le signe intégrale 2",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de dérivation sous le signe intégrale.png",
+            "enonce": "Théorème de dérivation sous le signe intégrale",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "10 Intégrales à paramètre"
+}

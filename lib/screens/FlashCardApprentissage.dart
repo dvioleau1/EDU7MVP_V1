@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:ui';
+import 'dart:io' as io;
 
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/cupertino.dart';
@@ -363,13 +364,12 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
   
   static Future getAllFlashCards(String category,String filierematiere) async {
     //get datas from json file
-    print(category);
-    print(filierematiere);
+
     //Map<String, String> nameFiles = {"Algèbre-Algèbre bilinéaire":"AAB.json","Algèbre-Algèbre linéaire 1":"AAL1.json"};
     //String nameFile=nameFiles[category];
     //
-    String nameFile="Flc"+filierematiere+"/"+category+".json";
-    print(nameFile);
+    String nameFile="./Flc"+filierematiere+"/"+category+".json";
+    print(io.File(nameFile).exists());
     final String data= await rootBundle.loadString(nameFile);
     return convertDatas(data);
 

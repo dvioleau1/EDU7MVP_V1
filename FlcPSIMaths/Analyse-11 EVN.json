@@ -1,0 +1,141 @@
+{
+    "chapitre": "Analyse",
+    "flc": [
+        {
+            "corrige": "Corollaire ouvert fermé par application.png",
+            "enonce": "Corollaire ouvert fermé par application",
+            "importance": 1
+        },
+        {
+            "corrige": "Def application k lipschitzienne.png",
+            "enonce": "Def application k lipschitzienne",
+            "importance": 1
+        },
+        {
+            "corrige": "Def boule ouverte ferme sphère.png",
+            "enonce": "Def boule ouverte ferme sphère",
+            "importance": 1
+        },
+        {
+            "corrige": "Def d'un ensemble compacte.png",
+            "enonce": "Def d'un ensemble compacte",
+            "importance": 1
+        },
+        {
+            "corrige": "Def d'un ouvert fermé.png",
+            "enonce": "Def d'un ouvert fermé",
+            "importance": 1
+        },
+        {
+            "corrige": "Def d'une application bornée.png",
+            "enonce": "Def d'une application bornée",
+            "importance": 1
+        },
+        {
+            "corrige": "Def d'une partie bornée.png",
+            "enonce": "Def d'une partie bornée",
+            "importance": 1
+        },
+        {
+            "corrige": "Def de normes équivalentes.png",
+            "enonce": "Def de normes équivalentes",
+            "importance": 1
+        },
+        {
+            "corrige": "Def densité.png",
+            "enonce": "Def densité",
+            "importance": 1
+        },
+        {
+            "corrige": "Def norme.png",
+            "enonce": "Def norme",
+            "importance": 1
+        },
+        {
+            "corrige": "Def point adhérent bis.png",
+            "enonce": "Def point adhérent bis",
+            "importance": 1
+        },
+        {
+            "corrige": "Def point adhérent.png",
+            "enonce": "Def point adhérent",
+            "importance": 1
+        },
+        {
+            "corrige": "Def point intérieur.png",
+            "enonce": "Def point intérieur",
+            "importance": 1
+        },
+        {
+            "corrige": "Inclusion intérieur adhérence d'un ensemble.png",
+            "enonce": "Inclusion intérieur adhérence d'un ensemble",
+            "importance": 1
+        },
+        {
+            "corrige": "Inégalité triangulaire inversée.png",
+            "enonce": "Inégalité triangulaire inversée",
+            "importance": 1
+        },
+        {
+            "corrige": "Normes usuelles.png",
+            "enonce": "Normes usuelles",
+            "importance": 1
+        },
+        {
+            "corrige": "Partie convexe.png",
+            "enonce": "Partie convexe",
+            "importance": 1
+        },
+        {
+            "corrige": "Prop applications (multi) linéaires.png",
+            "enonce": "Prop applications (multi) linéaires",
+            "importance": 1
+        },
+        {
+            "corrige": "Prop applications lipschitziennes.png",
+            "enonce": "Prop applications lipschitziennes",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriété d'un ouvert fermé choix de norme.png",
+            "enonce": "Propriété d'un ouvert fermé choix de norme",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriété norme sur la convergence.png",
+            "enonce": "Propriété norme sur la convergence",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés boule ouverte fermée bis.png",
+            "enonce": "Propriétés boule ouverte fermée bis",
+            "importance": 1
+        },
+        {
+            "corrige": "Propriétés boule ouverte fermée.png",
+            "enonce": "Propriétés boule ouverte fermée",
+            "importance": 1
+        },
+        {
+            "corrige": "Stabilités des ouverts fermés.png",
+            "enonce": "Stabilités des ouverts fermés",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème de compacité.png",
+            "enonce": "Théorème de compacité",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème normes équivalentes.png",
+            "enonce": "Théorème normes équivalentes",
+            "importance": 1
+        },
+        {
+            "corrige": "Théorème ouvert fermé par application réciproque.png",
+            "enonce": "Théorème ouvert fermé par application réciproque",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "11 EVN"
+}

@@ -1,0 +1,61 @@
+{
+    "chapitre": "Proba",
+    "flc": [
+        {
+            "corrige": "Def événement élémentaire.png",
+            "enonce": "Def événement élémentaire",
+            "importance": 1
+        },
+        {
+            "corrige": "Def mutuelle indépendance.png",
+            "enonce": "Def mutuelle indépendance",
+            "importance": 1
+        },
+        {
+            "corrige": "Def SCE.png",
+            "enonce": "Def SCE",
+            "importance": 1
+        },
+        {
+            "corrige": "Extension événements mutuellement indépendants.png",
+            "enonce": "Extension événements mutuellement indépendants",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule de Bayes.png",
+            "enonce": "Formule de Bayes",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule des probas totales.png",
+            "enonce": "Formule des probas totales",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule Proba conditionnelle.png",
+            "enonce": "Formule Proba conditionnelle",
+            "importance": 1
+        },
+        {
+            "corrige": "Formule proba uniforme.png",
+            "enonce": "Formule proba uniforme",
+            "importance": 1
+        },
+        {
+            "corrige": "Inégalité proba avec inclusion.png",
+            "enonce": "Inégalité proba avec inclusion",
+            "importance": 1
+        },
+        {
+            "corrige": "Proba avec SCE.png",
+            "enonce": "Proba avec SCE",
+            "importance": 1
+        },
+        {
+            "corrige": "Proba d'un événement avec événement élémentaire.png",
+            "enonce": "Proba d'un événement avec événement élémentaire",
+            "importance": 1
+        }
+    ],
+    "sous-chapitre": "01 Proba finies"
+}
