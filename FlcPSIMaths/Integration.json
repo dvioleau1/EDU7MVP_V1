@@ -1,4 +1,4 @@
-{
+﻿{
     "chapitre": "Analyse",
     "flc": [
         {
@@ -42,5 +42,5 @@
             "importance": 1
         }
     ],
-    "sous-chapitre": "08 Intégration"
+    "sous-chapitre": "Intégration"
 }

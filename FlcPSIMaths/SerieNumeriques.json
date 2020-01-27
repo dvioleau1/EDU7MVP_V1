@@ -1,4 +1,4 @@
-{
+﻿{
     "chapitre": "Analyse",
     "flc": [
         {
@@ -17,13 +17,13 @@
             "importance": 1
         },
         {
-            "corrige": "Lemme : Critère de comparaison avec les inégalités ?",
-            "enonce": "Lemme : Critère de comparaison avec les inégalités ?",
+            "corrige": "Critdecomparaison1.png",
+            "enonce": "Théorème : Critères de comparaison avec grand O et ~  pour les SATP ?",
             "importance": 1
         },
         {
-            "corrige": "Lemme : Critère de comparaison avec les inégalités ?",
-            "enonce": "Lemme : Critère de comparaison avec les inégalités ?",
+            "corrige": "Critdecomparaison2.png",
+            "enonce": "Théorème : Critères de comparaison avec grand/petit O et ~  sans SATP ?",
             "importance": 1
         },
         {
@@ -62,20 +62,10 @@
             "importance": 1
         },
         {
-            "corrige": "Serie geo.png",
-            "enonce": "Serie geo",
-            "importance": 1
-        },
-        {
-            "corrige": "Serie geo1.png",
-            "enonce": "Serie geo1",
-            "importance": 1
-        },
-        {
             "corrige": "ThdeCauchy.png",
             "enonce": "Théorème de Cauchy",
             "importance": 1
         }
     ],
-    "sous-chapitre": "03 Séries numériques"
+    "sous-chapitre": "Séries numériques"
 }

@@ -1,65 +1,40 @@
-{
+﻿{
     "chapitre": "Algèbre",
     "flc": [
         {
             "corrige": "Caracterisationbijectiviteetbase.png",
             "enonce": "Caractérisation bijectivité et base",
-            "importance": 2
+            "importance": 3
         },
         {
             "corrige": "Caracterisationdunhyperplan.png",
             "enonce": "Caractérisation d'un hyperplan ?",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Caracterisationnoyauformeslineaires.png",
             "enonce": "Caractérisation du noyau de 2 formes linéaires ? ",
-            "importance": 2
+            "importance": 3
         },
         {
-            "corrige": "Caractérisation de 2 sous-espaces vectoriels en somme directe ?",
+            "corrige": "Caracterisationsommedirecte1.png",
             "enonce": "Caractérisation de 2 sous-espaces vectoriels en somme directe ?",
-            "importance": 2
-        },
-        {
-            "corrige": "Caracterisationsommedirecte.png",
-            "enonce": "Caractérisation de 2 sous-espaces vectoriels en somme directe ?",
-            "importance": 2
-        },
-        {
-            "corrige": "Caractérisation supplémentaires 1.png",
-            "enonce": "Caractérisation supplémentaires 1",
-            "importance": 2
-        },
-        {
-            "corrige": "Caractérisation supplémentaires.png",
-            "enonce": "Caractérisation supplémentaires",
-            "importance": 2
-        },
-        {
-            "corrige": "Def base adaptée.png",
-            "enonce": "Def base adaptée",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defespacededimfini.png",
             "enonce": "Définition d'un espace vectoriel de dimension finie ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defhyperplan.png",
             "enonce": "Définition d'un hyperplan ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "Def image réciproque.png",
-            "enonce": "Def image réciproque",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "DefSEV.png",
             "enonce": "Définition d’un sous-espace vectoriel ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defsommedirecte.png",
@@ -69,24 +44,9 @@
         {
             "corrige": "LemmedeSteinitz.png",
             "enonce": "Lemme de Steinitz ? ",
-            "importance": 2
+            "importance": 4
         },
-        {
-            "corrige": "Lemme pour 2 endo qui commutent.png",
-            "enonce": "Lemme pour 2 endo qui commutent",
-            "importance": 2
-        },
-        {
-            "corrige": "Théorème de la base incomplète.png",
-            "enonce": "Théorème de la base incomplète",
-            "importance": 2
-        },
-        {
-            "corrige": "Théorème morphisme d'algèbre.png",
-            "enonce": "Théorème morphisme d'algèbre",
-            "importance": 2
-        },
-		 {
+	{
             "corrige": "DefduneALCAaunemat.png",
             "enonce": "Définition d'une application linéaire canoniquement associé à une matrice ? ",
             "importance": 2
@@ -94,31 +54,26 @@
         {
             "corrige": "DefdeterminantdeVdM.png",
             "enonce": "Formule de la matrice de Vandermonde (taille nxn) ?",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defmatricdunendo.png",
             "enonce": "Définition d'une matrice d’un endomorphisme ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defmatricedepassage.png",
             "enonce": "Définition d'une matrice de passage ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "DeterminantdeVdMetinversibilite.png",
             "enonce": "Formule du déterminant de Vandermonde ? + Critère d’invisibilité ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Determinanttriangulaireparblocs.png",
             "enonce": "Formule du déterminant triangulaire par blocs ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "Exp coordonnées d'une AL dans une base.png",
-            "enonce": "Exp coordonnées d'une AL dans une base",
             "importance": 2
         },
         {
@@ -137,35 +92,15 @@
             "importance": 2
         },
         {
-            "corrige": "Polynôme de matrice.png",
-            "enonce": "Polynôme de matrice",
-            "importance": 2
-        },
-        {
-            "corrige": "3 propriétés de la trace en terme de matrices ? ",
+            "corrige": "Proprietesdelatrace1.png",
             "enonce": "3 propriétés de la trace en terme de matrices ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "Proprietesdelatrace.png",
-            "enonce": "3 propriétés de la trace en terme de matrices ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Proprietesdudeterminant.png",
             "enonce": "10 propriétés du déterminant ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "Propriétés polynômes de matrice 1.png",
-            "enonce": "Propriétés polynômes de matrice 1",
-            "importance": 2
-        },
-        {
-            "corrige": "Propriétés polynômes de matrice.png",
-            "enonce": "Propriétés polynômes de matrice",
-            "importance": 2
+            "importance": 1
         }
     ],
-    "sous-chapitre": "01 Algèbre linéaire 1"
+    "sous-chapitre": "Algèbre linéaire"
 }

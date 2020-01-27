@@ -1,75 +1,50 @@
-{
+﻿{
     "chapitre": "Formules",
     "flc": [
-        {
-            "corrige": "Arc moitié 1.png",
-            "enonce": "Arc moitié 1",
-            "importance": 2
-        },
         {
             "corrige": "Arcmoitie2.png",
             "enonce": "Formule de l’arc moitié ? ",
             "importance": 2
         },
         {
-            "corrige": "Domaine de définition/continuité de arccos ? ",
+            "corrige": "Arccos.png",
             "enonce": "Domaine de définition/continuité de arccos ? ",
             "importance": 2
         },
         {
-            "corrige": "Domaine de définition/continuité de arccos ? ",
-            "enonce": "Domaine de définition/continuité de arccos ? ",
+            "corrige": "Arccos1.png",
+            "enonce": "cos(arccos(x)) = ? arccos(cos(x) = ? Sur quel segment ?",
             "importance": 2
         },
         {
-            "corrige": "Domaine de définition de arcsin ? sin(arcsin(x)) = ? arcsin(sin(x)) = ? Sur quel segment ?",
+            "corrige": "Arcsin.png",
             "enonce": "Domaine de définition de arcsin ? sin(arcsin(x)) = ? arcsin(sin(x)) = ? Sur quel segment ?",
             "importance": 2
         },
         {
-            "corrige": "Domaine de définition de arctan ? tan(arctan(x)) = ? arctan(tan(x)) = ? Sur quel segment ?",
+            "corrige": "Arctan.png",
             "enonce": "Domaine de définition de arctan ? tan(arctan(x)) = ? arctan(tan(x)) = ? Sur quel segment ?",
-            "importance": 2
-        },
-        {
-            "corrige": "Dérivées 1.png",
-            "enonce": "Dérivées 1",
             "importance": 2
         },
         {
             "corrige": "Derivees2.png",
             "enonce": "Dérivées : cos(x), sin(x), tan(x), cotan(x), arccos(x), arcsin(x), arctan(x) ?",
-            "importance": 2
-        },
-        {
-            "corrige": "Formules d'addition 1.png",
-            "enonce": "Formules d'addition 1",
-            "importance": 2
-        },
+            "importance": 1
+        }
         {
             "corrige": "Formulesdaddition2.png",
             "enonce": "Formules d’addition ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "FormulesdEuler.png",
             "enonce": "Formules d’Euler ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "formules de duplication 1.png",
-            "enonce": "formules de duplication 1",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Formulesdeduplication2.png",
             "enonce": "Formules de duplication ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "Identités 1.png",
-            "enonce": "Identités 1",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Identites2.png",
@@ -77,5 +52,5 @@
             "importance": 2
         }
     ],
-    "sous-chapitre": "Trigo"
+    "sous-chapitre": "Trigonométrie"
 }

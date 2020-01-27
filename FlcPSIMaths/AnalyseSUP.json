@@ -1,30 +1,15 @@
-{
+﻿{
     "chapitre": "Analyse",
     "flc": [
         {
-            "corrige": "Caractérisation des difféomorphismes.png",
-            "enonce": "Caractérisation des difféomorphismes",
-            "importance": 2
-        },
-        {
-            "corrige": "Continuité_dérivabilité d'une primitive en fonction de f.png",
-            "enonce": "Continuité_dérivabilité d'une primitive en fonction de f",
-            "importance": 2
-        },
-        {
-            "corrige": "Def Cp difféomorph.png",
-            "enonce": "Def Cp difféomorph",
-            "importance": 2
-        },
-        {
             "corrige": "Defderivabilite.png",
             "enonce": "Définition : une fonction f est dérivable en un point a <=> ?",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defvaleurmoydunefonction.png",
             "enonce": "Définition : Formule de la valeur moyenne d’une fonction sur un segment [a,b] ?",
-            "importance": 2
+            "importance": 3
         },
         {
             "corrige": "Deriveedelareciproque.png",
@@ -39,27 +24,27 @@
         {
             "corrige": "FormuledeLeibniz.png",
             "enonce": "Théorème : Formule de Leibniz ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "FormuledeTayloravecresteintegral.png",
             "enonce": "Théorème : Formule de Taylor avec reste intégral ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "FormuledeTaylor-Young.png",
             "enonce": "Théorème : Formule de Taylor-Young",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "HYPPositivitedelintegrale.png",
             "enonce": "Proposition : positivité de l’intégrale ? (Hypothèses)",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "HYPstrictepositivitedelint.png",
             "enonce": "Théorème : stricte positivité de l’intégrale ? (Hypothèses)",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "InegalitedeCauchy-Schwartz.png",
@@ -69,37 +54,17 @@
         {
             "corrige": "Inegalitedesaccroissementsfinis.png",
             "enonce": "Théorème : Inégalité des accroissements finis",
-            "importance": 2
-        },
-        {
-            "corrige": "Inégalité_égalité de Taylor-Lagrange.png",
-            "enonce": "Inégalité_égalité de Taylor-Lagrange",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "SommedeRiemann.png",
             "enonce": "Corollaire : Formule de la somme de Riemann ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "Stabilité dérivabilité_classe Cp par opération 1.png",
-            "enonce": "Stabilité dérivabilité_classe Cp par opération 1",
-            "importance": 2
-        },
-        {
-            "corrige": "Stabilité dérivabilité_classe Cp par opération 2.png",
-            "enonce": "Stabilité dérivabilité_classe Cp par opération 2",
-            "importance": 2
-        },
-        {
-            "corrige": "Stabilité dérivabilité_classe Cp par opération.png",
-            "enonce": "Stabilité dérivabilité_classe Cp par opération",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Theoremedecompacite.png",
             "enonce": "Théorème de compacité",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "TheoremedeprolongementCk.png",
@@ -112,5 +77,5 @@
             "importance": 2
         }
     ],
-    "sous-chapitre": "01 Analyse SUP"
+    "sous-chapitre": "Analyse SUP"
 }

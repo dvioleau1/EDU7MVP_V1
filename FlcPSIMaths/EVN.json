@@ -1,11 +1,6 @@
-{
+﻿{
     "chapitre": "Analyse",
     "flc": [
-        {
-            "corrige": "Corollaire ouvert fermé par application.png",
-            "enonce": "Corollaire ouvert fermé par application",
-            "importance": 2
-        },
         {
             "corrige": "Defapplicationklipschitzienne.png",
             "enonce": "Définition : Application lipschitzienne ?",
@@ -14,7 +9,7 @@
         {
             "corrige": "Defbouleouvertefermesphere.png",
             "enonce": "Définition : boule ouverte/fermé, sphère de centre a ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defdunensemblecompacte.png",
@@ -24,7 +19,7 @@
         {
             "corrige": "Defdunouvertferme.png",
             "enonce": "Définition : Partie ouverte/fermée de E ?",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defduneapplicationbornee.png",
@@ -37,11 +32,6 @@
             "importance": 2
         },
         {
-            "corrige": "Def de normes équivalentes.png",
-            "enonce": "Def de normes équivalentes",
-            "importance": 2
-        },
-        {
             "corrige": "Defdensite.png",
             "enonce": "Définition : A est une partie dense de E <=> ? ",
             "importance": 2
@@ -49,27 +39,17 @@
         {
             "corrige": "Defnorme.png",
             "enonce": "Définition : Norme ? ",
-            "importance": 2
-        },
-        {
-            "corrige": "Def point adhérent bis.png",
-            "enonce": "Def point adhérent bis",
-            "importance": 2
-        },
-        {
-            "corrige": "Def point adhérent.png",
-            "enonce": "Def point adhérent",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Defpointinterieur.png",
             "enonce": "Définition : Point intérieur à A (partie de E) ?",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Inclusioninterieuradherencedunensemble.png",
             "enonce": "Proposition : Caractérisation d’un ouvert/fermé ?",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Inegalitetriangulaireinversee.png",
@@ -79,7 +59,7 @@
         {
             "corrige": "Normesusuelles.png",
             "enonce": "3 Normes usuelles ? ",
-            "importance": 2
+            "importance": 1
         },
         {
             "corrige": "Partieconvexe.png",
@@ -94,27 +74,7 @@
         {
             "corrige": "Propapplicationslipschitziennes.png",
             "enonce": "Proposition : 2 propriétés d’une application lipschitzienne ?",
-            "importance": 2
-        },
-        {
-            "corrige": "Propriété d'un ouvert fermé choix de norme.png",
-            "enonce": "Propriété d'un ouvert fermé choix de norme",
-            "importance": 2
-        },
-        {
-            "corrige": "Propriété norme sur la convergence.png",
-            "enonce": "Propriété norme sur la convergence",
-            "importance": 2
-        },
-        {
-            "corrige": "Propriétés boule ouverte fermée bis.png",
-            "enonce": "Propriétés boule ouverte fermée bis",
-            "importance": 2
-        },
-        {
-            "corrige": "Propriétés boule ouverte fermée.png",
-            "enonce": "Propriétés boule ouverte fermée",
-            "importance": 2
+            "importance": 3
         },
         {
             "corrige": "Stabilitesdesouvertsfermes.png",
@@ -124,18 +84,8 @@
         {
             "corrige": "Theoremedecompacite.png",
             "enonce": "Théorème de compacité",
-            "importance": 2
-        },
-        {
-            "corrige": "Théorème normes équivalentes.png",
-            "enonce": "Théorème normes équivalentes",
-            "importance": 2
-        },
-        {
-            "corrige": "Théorème ouvert fermé par application réciproque.png",
-            "enonce": "Théorème ouvert fermé par application réciproque",
-            "importance": 2
+            "importance": 3
         }
     ],
-    "sous-chapitre": "11 EVN"
+    "sous-chapitre": "EVN"
 }

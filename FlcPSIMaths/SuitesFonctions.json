@@ -1,4 +1,4 @@
-{
+﻿{
     "chapitre": "Analyse",
     "flc": [
         {
@@ -27,32 +27,12 @@
             "importance": 1
         },
         {
-            "corrige": "Th dbl lim.png",
-            "enonce": "Th dbl lim",
-            "importance": 1
-        },
-        {
-            "corrige": "Th dbl lim1.png",
-            "enonce": "Th dbl lim1",
-            "importance": 1
-        },
-        {
-            "corrige": "Théorème de dérivation de la limite pour une suite de fonctions de classe C1 ? ",
+            "corrige": "Thderivationlimgen.png",
             "enonce": "Théorème de dérivation de la limite pour une suite de fonctions de classe C1 ? ",
             "importance": 1
         },
         {
-            "corrige": "Thderivationlim.png",
-            "enonce": "Théorème de dérivation de la limite pour une suite de fonctions de classe C1 ? ",
-            "importance": 1
-        },
-        {
-            "corrige": "Théorème de dérivation de la somme pour une suite de fonctions de classe C1 ? ",
-            "enonce": "Théorème de dérivation de la somme pour une suite de fonctions de classe C1 ? ",
-            "importance": 1
-        },
-        {
-            "corrige": "Thderivationsom.png",
+            "corrige": "Thderivationsomgen.png",
             "enonce": "Théorème de dérivation de la somme pour une suite de fonctions de classe C1 ? ",
             "importance": 1
         },
@@ -72,5 +52,5 @@
             "importance": 1
         }
     ],
-    "sous-chapitre": "04 Suites de fonction"
+    "sous-chapitre": "Suites de fonction"
 }

@@ -1,34 +1,9 @@
-{
+﻿{
     "chapitre": "Analyse",
     "flc": [
         {
-            "corrige": "Car conv suite et imf.png",
-            "enonce": "Car conv suite et imf",
-            "importance": 1
-        },
-        {
             "corrige": "Carequivalentsuite.png",
             "enonce": "Proposition : Caractérisation de deux suites équivalentes ?",
-            "importance": 1
-        },
-        {
-            "corrige": "Car suite récu.png",
-            "enonce": "Car suite récu",
-            "importance": 1
-        },
-        {
-            "corrige": "Def extractrice_sssuite.png",
-            "enonce": "Def extractrice_sssuite",
-            "importance": 1
-        },
-        {
-            "corrige": "Def équivalent.png",
-            "enonce": "Def équivalent",
-            "importance": 1
-        },
-        {
-            "corrige": "Def o O.png",
-            "enonce": "Def o O",
             "importance": 1
         },
         {
@@ -65,12 +40,7 @@
             "corrige": "Thdeconvergence.png",
             "enonce": "Théorèmes de convergence pour une suite réelle (4)",
             "importance": 1
-        },
-        {
-            "corrige": "Th suite adj.png",
-            "enonce": "Th suite adj",
-            "importance": 1
         }
     ],
-    "sous-chapitre": "02 Suites numériques"
+    "sous-chapitre": "Suites numériques"
 }

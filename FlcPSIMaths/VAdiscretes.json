@@ -1,15 +1,15 @@
-{
+﻿{
     "chapitre": "Proba",
     "flc": [
         {
             "corrige": "Caracterisationfonctiongeneratriceetloideproba.png",
             "enonce": "Proposition : lien entre fonction génératrice et loi de proba de 2 variables aléatoires ?",
-            "importance": 1
+            "importance": 2
         },
         {
             "corrige": "Cauchy-Schwartz+HYP.png",
             "enonce": "Proposition : Inégalité de Cauchy-Schwarz ?",
-            "importance": 1
+            "importance": 2
         },
         {
             "corrige": "Defdunmomentdordrep.png",
@@ -29,7 +29,7 @@
         {
             "corrige": "Deffonctionderepartition.png",
             "enonce": "Définition : fonction de répartition d’une variable aléatoire ?",
-            "importance": 1
+            "importance": 3
         },
         {
             "corrige": "Defloiconjointeduncouple1.png",
@@ -54,17 +54,17 @@
         {
             "corrige": "Esperanceduproduitde2VAparapplication.png",
             "enonce": "Corollaire : Espérance du produit de 2 variables aléatoires indépendantes ?  ",
-            "importance": 1
+            "importance": 2
         },
         {
             "corrige": "Fonctiongeneratricede2VAindependantes.png",
             "enonce": "Proposition : Fonction génératrice de la somme de 2 variables aléatoires indépendantes ? (formule)",
-            "importance": 1
+            "importance": 3
         },
         {
             "corrige": "Formulecoefficientdecorrelation+proprietes.png",
             "enonce": "Définition : coefficient de corrélation linéaire de deux variables aléatoires ? + 2 propriétés",
-            "importance": 1
+            "importance": 3
         },
         {
             "corrige": "Formulecovariance.png",
@@ -109,12 +109,12 @@
         {
             "corrige": "Inclusionmomentdordrepetq.png",
             "enonce": "Proposition : Inclusion des ensembles des VA réelles de moment d’ordre p et q (p < q) ?",
-            "importance": 1
+            "importance": 3
         },
         {
             "corrige": "IndependanceVAparapplication.png",
             "enonce": "Proposition :  Si X et Y sont 2 VA indépendantes, conséquence sur f(X) et g(Y) ? (f et g des fonctions quelconques)",
-            "importance": 1
+            "importance": 2
         },
         {
             "corrige": "Inegaliteavecesperance+formuleavecfonctionindicatrice.png",
@@ -124,22 +124,22 @@
         {
             "corrige": "InegalitedeBienayme-Tchebychev.png",
             "enonce": "Inégalité de Bienaymé-Tchebychev ?",
-            "importance": 1
+            "importance": 2
         },
         {
             "corrige": "InegalitedeMarkov.png",
             "enonce": "Proposition : Inégalité de Markov",
-            "importance": 1
+            "importance": 2
         },
         {
             "corrige": "Laloifaibledesgrandsnombres.png",
             "enonce": "Théorème : Loi faible des grands nombres ? ",
-            "importance": 1
+            "importance": 3
         },
         {
             "corrige": "LienfonctionderepartitionetloidedeuxVA.png",
             "enonce": "Théorème : lien entre fonction de répartition et loi de proba de 2 variables aléatoires ?",
-            "importance": 1
+            "importance": 2
         },
         {
             "corrige": "Proprietescovariance.png",
@@ -154,18 +154,18 @@
         {
             "corrige": "Proprietesfonctionderepartition.png",
             "enonce": "Proposition : 7 propriétés de la fonction de répartition ? ",
-            "importance": 1
+            "importance": 3
         },
         {
             "corrige": "Proprietesfonctiongeneratrice.png",
             "enonce": "Proposition : 5 propriétés de la fonction génératrice ",
-            "importance": 1
+            "importance": 3
         },
         {
             "corrige": "ThapproximationloibinomialeparloidePoisson.png",
             "enonce": "Théorème : Approximation de la loi binomiale par une loi de Poisson ? ",
-            "importance": 1
+            "importance": 3
         }
     ],
-    "sous-chapitre": "04 VA discrètes"
+    "sous-chapitre": "VA discrètes"
 }
