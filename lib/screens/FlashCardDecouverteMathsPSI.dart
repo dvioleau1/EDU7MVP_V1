@@ -206,7 +206,10 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
                                   IconButton(
         icon: Icon(Icons.apps),
         tooltip: 'Affiche l\'ensemble des notions de cette catégories',
-        onPressed: () {}
+        onPressed: () {            final snackBar = SnackBar(
+                        content: Text('Retrouve ici une vue d\'ensemble de toutes les flashcards pour un même niveau d\'importance'),
+            );
+            Scaffold.of(context).showSnackBar(snackBar);}
           ),
           
                                             ]),

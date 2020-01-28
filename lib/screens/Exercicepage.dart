@@ -13,28 +13,36 @@ class Exercicepage extends StatefulWidget {
 }
 
 class _Exercicepage extends State<Exercicepage> {
-  @override
+    @override
   Widget build(BuildContext context) {
-    List<Widget> content = [];
+    return Center(
+        child: Padding( padding: const EdgeInsets.all(16.0), child: Text("A venir. Ensembles d'exercices classés par difficultés adaptés à chaque profil"),)
+    );
 
-
-    if (Platform.isIOS) {
-      // return CupertinoPageScaffold(child: Column(children: content,),navigationBar: CupertinoNavigationBar(leading: Text("Accueil"),),);
-      content.add(CupertinoNavigationBar(middle: Text("Exercices")));
-    }
-
-    Widget msg = new Center(
-      child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            new Text("A venir. Ensembles d'exercices classés par difficultés adaptés à chaque profil" ,style: TextStyle(
-                                            fontWeight: FontWeight.bold, fontSize: 20),),
-            //new Text("Créé par et pour des Prépas"),
-          ],
-        ),
-      );
-     return msg;
 
   }
+  // @override
+  // Widget build(BuildContext context) {
+  //   List<Widget> content = [];
+
+
+  //   if (Platform.isIOS) {
+  //     // return CupertinoPageScaffold(child: Column(children: content,),navigationBar: CupertinoNavigationBar(leading: Text("Accueil"),),);
+  //     content.add(CupertinoNavigationBar(middle: Text("Exercices")));
+  //   }
+
+  //   Widget msg = new Center(
+  //     child: Column(
+  //         mainAxisAlignment: MainAxisAlignment.spaceAround,
+  //         crossAxisAlignment: CrossAxisAlignment.center,
+  //         children: <Widget>[
+  //           new Text("A venir. Ensembles d'exercices classés par difficultés adaptés à chaque profil" ,style: TextStyle(
+  //                                           fontWeight: FontWeight.bold, fontSize: 20),),
+  //           //new Text("Créé par et pour des Prépas"),
+  //         ],
+  //       ),
+  //     );
+  //    return msg;
+
+  // }
 }

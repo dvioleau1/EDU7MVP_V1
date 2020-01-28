@@ -111,7 +111,7 @@ Widget buttonStart = new Container(
 
     return PlatformScaffold(
       appBar: PlatformAppBar(
-        title: Text(this.dataflc),
+        title: Text("Conseils"),
       ),
       iosContentPadding: true,
       body:Center(

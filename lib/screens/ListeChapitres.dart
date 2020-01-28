@@ -5,4 +5,4 @@ const Map<String,String> chapPSIMaths={"VA finies":"VAfinies.json","VA discrète
   "EVN":"EVN.json","Formules de trigonométrie":"Trigo.json","Algèbre linéaire":"AlgebreLineaire.json","Réduction":"Reduction.json","Algèbre bilinéaire":"AlgebreBilineaire.json"};
 
 const Map<String,String> chapPSISI={"Hyperstatisme":"Hyperstatisme.json","Dynamique":"Dynamique.json","Energétique":"Energetique.json",
-  "Performances des SLCI":"PerformancesSLCI.png","Correcteurs":"Correcteurs.png"};
+  "Performances des SLCI":"PerformancesSLCI.json","Correcteurs":"Correcteurs.json"};

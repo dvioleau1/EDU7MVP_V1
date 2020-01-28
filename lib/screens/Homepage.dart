@@ -69,7 +69,10 @@ class _HomepageState extends State<Homepage> {
             new Text("Bienvenue sur EDU7" ,style: TextStyle(
                                             fontWeight: FontWeight.bold, fontSize: 20),),
             new Image.asset("images/Image_accueil.png",height: 200,width: 200),
-            new Text("Créé par et pour des Prépas"),
+            new Text("Retrouve bientôt sur cette page les statistiques relatives à l'apprentissage des cours",
+            textAlign:TextAlign.center,style: TextStyle(
+                                            fontWeight: FontWeight.bold, fontSize: 15)),
+            new Text("Créé par et pour les Prépas"),
           ],
         ),
       );

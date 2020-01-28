@@ -505,9 +505,19 @@ class StatefulStarRating extends StatelessWidget {
       builder: (context, setState) {
         return StarRating(
           onChanged: (index) {
-            setState(() {
-              rating = index;
-            });
+            final snackBar = SnackBar(
+                        content: Text('Bientôt les résultats seront mémorisés et analysés pour aider à améliorer l\'apprentissage sur ces flashcards'),
+                        // action: SnackBarAction(
+                        //   label: 'Undo',
+                         //  onPressed: () {
+                        //     // Some code to undo the change.
+                        //  },
+            //,
+            );
+            Scaffold.of(context).showSnackBar(snackBar);
+             setState(() {
+               rating = index;
+             });
           },
           value: rating,
         );
