@@ -130,7 +130,7 @@ class _WorkMode extends State<WorkMode> {
           }),
     );
 
-    Widget modes = new Scaffold(
+    Widget modesMaths = new Scaffold(
       key: _key,
       body: new Center(
         child: Padding(
@@ -149,15 +149,45 @@ class _WorkMode extends State<WorkMode> {
       ),
     );
 
-    return PlatformScaffold(
-      appBar: PlatformAppBar(
-        title: Text("Choix du mode"),
-      ),
-      iosContentPadding: true,
-      body: Center(
-        child: modes,
+    Widget modesSI = new Scaffold(
+      key: _key,
+      body: new Center(
+        child: Padding(
+          padding: paddingPage,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              buttonDecouverte,
+              buttonApprentissage,
+              buttonRevision
+            ],
+          ),
+        ),
       ),
     );
+
+    if (this.filierematiere.contains("Maths")){
+      return PlatformScaffold(
+        appBar: PlatformAppBar(
+          title: Text("Choix du mode"),
+        ),
+        iosContentPadding: true,
+        body: Center(
+          child: modesMaths,
+        ),
+      );
+    }
+    else {      
+      return PlatformScaffold(
+        appBar: PlatformAppBar(
+          title: Text("Choix du mode"),
+        ),
+        iosContentPadding: true,
+        body: Center(
+          child: modesSI,
+        ),
+      );}
   }
 
   _openPage(WidgetBuilder pageToDisplayBuilder) {

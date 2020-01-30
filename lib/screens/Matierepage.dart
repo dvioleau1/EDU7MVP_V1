@@ -33,9 +33,17 @@ class PCSI extends State<FilierePCSI> {
               style: styleMatiere
           ),
           onPressed:(){
-            _openPage((_) =>
-              new ChapitresMaths("PCSI"));
-          }
+            final snackBar = SnackBar(
+                        content: Text('A venir bientôt '),
+            );
+            //return snackBar;
+            Scaffold.of(context).showSnackBar(snackBar);
+            }
+
+          // {
+          //    _openPage((_) =>
+          //      new ChapitresMaths("PCSI"));
+          // }
       ),
     );
 

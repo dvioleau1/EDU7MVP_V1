@@ -216,7 +216,7 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
                                             Divider(thickness:1, color:Colors.black ),
                                   Text(snapshot.data[index][1],textAlign: TextAlign.center),
                                     Divider(thickness:1, color:Colors.black ),
-                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 200,width: 300),
+                                    Image.asset("images/Images"+filierematiere+"/"+snapshot.data[index][2],height: 200,width: 300),
                                     //Image.asset("Images"+filierematiere+"/A.png",height: 200,width: 300),
 
                                 // //Pour associer textes et images
@@ -300,7 +300,7 @@ class _FlashCardDecouverteMathsPSIState extends State<FlashCardDecouverteMathsPS
   
   static Future getAllFlashCards(String category,String filierematiere) async {
     //get datas from json file
-    String nameFile="./Flc"+filierematiere+"/"+category;
+    String nameFile="ressources/Flc"+filierematiere+"/"+category;
     Future datas;
           //String nameFile="./Flc"+filierematiere+"/A1.json";
 

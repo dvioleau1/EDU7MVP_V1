@@ -266,7 +266,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
                                             fontWeight: FontWeight.bold),
                                       ),
                                       
-                                      Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 250,width: 300),
+                                      Image.asset("images/Images"+filierematiere+"/"+snapshot.data[index][2],height: 250,width: 300),
                                       // Text(
                                       //   snapshot.data[index][2],
                                       //   textAlign: TextAlign.center
@@ -408,7 +408,7 @@ class _FlashCard2State extends State<FlashCard2> with TickerProviderStateMixin {
   
   static Future getAllFlashCards(String category,String filierematiere) async {
     //get datas from json file
-    String nameFile="./Flc"+filierematiere+"/"+category;
+    String nameFile="ressources/Flc"+filierematiere+"/"+category;
     Future datas;
     final String data= await rootBundle.loadString(nameFile);
     datas=convertDatas(data);

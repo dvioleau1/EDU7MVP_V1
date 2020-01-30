@@ -15,7 +15,6 @@ class Filierepage extends StatefulWidget {
 
 class _FilierepageState extends State<Filierepage> {
 // class Filierepage extends StatelessWidget {
-GlobalKey<ScaffoldState> _key = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
@@ -26,17 +25,7 @@ GlobalKey<ScaffoldState> _key = GlobalKey();
       // return CupertinoPageScaffold(child: Column(children: content,),navigationBar: CupertinoNavigationBar(leading: Text("Accueil"),),);
       content.add(CupertinoNavigationBar(middle: Text("Flashcards")));
     }
-  Widget _snackSample() => SnackBar(
-      content: Text(
-        "A venir très bientôt (Maths et SI)",
-        style: TextStyle(
-          color: Colors.black,
-          fontSize: 20,
-        ),
-        textAlign: TextAlign.center,
-      ),
-      backgroundColor: Colors.blue,
-    );
+
 
     Widget buttonPCSI = new Container(
       margin: marginContainer,
@@ -48,10 +37,8 @@ GlobalKey<ScaffoldState> _key = GlobalKey();
           ),
 
           onPressed:(){
-            final snackBar = SnackBar(
-                        content: Text('A venir très bientôt - Maths et SI'),
-            );
-            Scaffold.of(context).showSnackBar(snackBar);
+           _openPage((_) =>
+                       new FilierePCSI("PCSI"));
           }
           
       ),

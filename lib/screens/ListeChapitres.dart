@@ -6,3 +6,7 @@ const Map<String,String> chapPSIMaths={"VA finies":"VAfinies.json","VA discrète
 
 const Map<String,String> chapPSISI={"Hyperstatisme":"Hyperstatisme.json","Dynamique":"Dynamique.json","Energétique":"Energetique.json",
   "Performances des SLCI":"PerformancesSLCI.json","Correcteurs":"Correcteurs.json"};
+
+const Map<String,String> chapPCSISI={"Modélisation des actions mécaniques":"ActionsMecaniques.json","Calculs des SLCI":"AnalyseSLCI.json",
+"Cinématique":"Cinematique.json",  "Modélisation des mécanismes":"Liaisons.json","Modélisation des SLCI":"ModelisationSLCI.json",
+"Statique":"Statique.json","Transmetteurs":"Transmetteurs.json"};

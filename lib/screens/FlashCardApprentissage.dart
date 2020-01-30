@@ -197,7 +197,7 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
                                     TextStyle(fontWeight: FontWeight.bold),
                                   ),
                            
-                                    Image.asset("Images"+filierematiere+"/"+snapshot.data[index][1],height: 300,width: 300),
+                                    Image.asset("images/Images"+filierematiere+"/"+snapshot.data[index][1],height: 300,width: 300),
                                 // //Pour associer textes et images
                                 // Wrap(spacing: 2.0, // gap between adjacent chips
                                 // runSpacing: 1.0, // gap between lines
@@ -256,7 +256,7 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
                                             fontWeight: FontWeight.bold),
                                       ),
                                       
-                                      Image.asset("Images"+filierematiere+"/"+snapshot.data[index][2],height: 300,width: 300),
+                                      Image.asset("images/Images"+filierematiere+"/"+snapshot.data[index][2],height: 300,width: 300),
                                       // Text(
                                       //   snapshot.data[index][2],
                                       //   textAlign: TextAlign.center
@@ -410,7 +410,7 @@ class _FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
     //String nameFile=nameFiles[category];
     //
 
-    String nameFile="./Flc"+filierematiere+"/"+category;
+    String nameFile="ressources/Flc"+filierematiere+"/"+category;
     final String data= await rootBundle.loadString(nameFile);
     return convertDatas(data);
 

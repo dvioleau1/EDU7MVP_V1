@@ -21,22 +21,22 @@ class _ChapitresSIState extends State<ChapitresSI> {
   String filiere;
   String nomChapitre;
 
-  Map<String, List<String>> mapChapitresPCSI={"Mécanique":["Modélisation des mécanismes","Cinématique","Transmetteurs",
-   "Modélisation des actions mécaniques",  "Statique"],
-  "Automatique":["Modélisation des SLCI","Calculs des SLCI"],
-  "SED":["Logique","SysML"]};
-
-  Map<String, List<String>> mapChapitresPSI={"Mécanique":["Hyperstatisme","Dynamique","Energétique"],
-  "Automatique":["Performances des SLCI","Correcteurs"],
-  "SED":[""]};
   
-  Map<String, Map<String, List<String>> > mapChapitres={"PCSI":{"Mécanique":["Modélisation des mécanismes","Cinématique","Transmetteurs",
-  "Modélisation des actions mécaniques",  "Statique"],
-  "Automatique":["Modélisation des SLCI","Calculs des SLCI"],
-  "SED":["Logique","SysML"]}
-  ,"PSI":{"Mécanique":["Hyperstatisme","Dynamique","Energétique"],
-  "Automatique":["Performances des SLCI","Correcteurs"],
-  "SED":[""]}};
+  Map<String, Map<String, List<String>> > mapChapitres={
+    "PCSI":{
+      "Mécanique":["Modélisation des mécanismes","Cinématique","Transmetteurs",
+      "Modélisation des actions mécaniques",  "Statique"],
+    "Automatique":["Modélisation des SLCI","Calculs des SLCI"],
+    "SED":[""]
+    }
+  ,"PSI":{
+    "Mécanique":["Hyperstatisme","Dynamique","Energétique"],
+    "Automatique":["Performances des SLCI","Correcteurs"],
+    "SED":[""]
+    }
+    };
+
+    Map<String,Map> listSI={"PCSI":chapPCSISI,"PSI":chapPSISI};
 
   _ChapitresSIState(this.filiere);
   @override
@@ -92,9 +92,9 @@ class _ChapitresSIState extends State<ChapitresSI> {
                       // ),
                       trailing: Icon(Icons.keyboard_arrow_right,
                           color: Colors.black, size: 30.0),
-                      onTap: () =>
+                      onTap:()=>
                       {
-                         _openPage((_) => new WorkMode(chapPSISI[this.mapChapitres[this.filiere]["Mécanique"][index]],this.filiere+"SI"))
+                          _openPage((_) => new WorkMode(listSI[this.filiere][this.mapChapitres[this.filiere]["Mécanique"][index]],this.filiere+"SI"))
                       },
                     );
                     
@@ -149,7 +149,7 @@ class _ChapitresSIState extends State<ChapitresSI> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                        _openPage((_) => new WorkMode(chapPSISI[this.mapChapitres[this.filiere]["Automatique"][index]],this.filiere+"SI"))
+                        _openPage((_) => new WorkMode(listSI[this.filiere][this.mapChapitres[this.filiere]["Automatique"][index]],this.filiere+"SI"))
 
                       },
                     );
@@ -205,7 +205,7 @@ class _ChapitresSIState extends State<ChapitresSI> {
                           color: Colors.black, size: 30.0),
                       onTap: () =>
                       {
-                        _openPage((_) => new WorkMode(chapPSISI[this.mapChapitres[this.filiere]["SED"][index]],this.filiere+"SI"))
+                        _openPage((_) => new WorkMode(listSI[this.filiere][this.mapChapitres[this.filiere]["SED"][index]],this.filiere+"SI"))
                       },
                     );
                     

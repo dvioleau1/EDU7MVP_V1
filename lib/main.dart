@@ -239,8 +239,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 bottomNavBar: PlatformNavBar(
 
-                  android: (_) => MaterialNavBarData(type: BottomNavigationBarType.fixed, items: makeTabs([Icons.school,Icons.create,Icons.home,Icons.collections_bookmark,Icons.info])),
-                  ios: (_) => CupertinoTabBarData(items: makeTabs([CupertinoIcons.book_solid,CupertinoIcons.create_solid,CupertinoIcons.home,CupertinoIcons.bookmark_solid,CupertinoIcons.info])),
+                  android: (_) => MaterialNavBarData(type: BottomNavigationBarType.fixed, items: makeTabs([Icons.home,Icons.school,Icons.create,Icons.people,Icons.info])),
+                  ios: (_) => CupertinoTabBarData(items: makeTabs([CupertinoIcons.home,CupertinoIcons.book_solid,CupertinoIcons.create_solid,CupertinoIcons.person,CupertinoIcons.info])),
                   currentIndex: currentTab,
                   itemChanged: (i) {
                     setState(() {
